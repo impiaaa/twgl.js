@@ -153,7 +153,7 @@ void main() {
   gl_FragColor = color;
 }
   </script>
-  <script src="../dist/twgl-full.min.js"></script>
+  <script src="../dist/twgl-full.js"></script>
   <script src="../3rdparty/chroma.min.js"></script>
   <script>
     "use strict";
@@ -286,7 +286,10 @@ void main() {
           0xA0,
         ],
       },
+      // a cubemap from a canvas element
       cubemapFromCanvas: { target: gl.TEXTURE_CUBE_MAP, src: cubemapCtx.canvas },
+      // a video texture
+      video: { src: "images/bbb_clip_480_nosound.mp4", video: true },
     });
 
     // This is soley to make it easy to pick textures at random
@@ -296,6 +299,7 @@ void main() {
       textures.hftIcon,
       textures.clover,
       textures.fromCanvas,
+      textures.video,
     ];
 
     var cubeTextures = [
@@ -381,6 +385,7 @@ void main() {
 
       updateCanvas(time);
       twgl.setTextureFromElement(gl, textures.fromCanvas, ctx.canvas);
+      twgl.updateVideos();
 
       objects.forEach(function(obj) {
         var uni = obj.uniforms;

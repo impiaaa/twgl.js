@@ -2002,6 +2002,45 @@ define([], function () {
     return img;
   }
 
+  var videoList = [];
+
+  function updateVideos() {
+    for (var i = 0; i < videoList.length; i++) {
+      setTextureFromElement(videoList[i].gl, videoList[i].tex, videoList[i].src, videoList[i].options);
+    }
+  }
+
+  /**
+   * Loads a video
+   * @param {string} url url to video
+   * @param {function(err, img)} [callback] a callback that's passed an error and the video. The error will be non-null
+   *     if there was an error
+   * @return {HTMLVideoElement} the image being loaded.
+   */
+  function loadVideo(url, crossOrigin, callback) {
+    callback = callback || noop;
+    var vid = document.createElement("video");
+    vid.preload = "auto";
+    vid.loop = true;
+    vid.autoplay = true;
+    crossOrigin = crossOrigin !== undefined ? crossOrigin : defaults.crossOrigin;
+    if (crossOrigin !== undefined) {
+      vid.crossOrigin = crossOrigin;
+    }
+    vid.onerror = function() {
+      var msg = "couldn't load video: " + url;
+      error(msg);
+      callback(msg, vid);
+    };
+    vid.addEventListener("canplaythrough", function() {
+      vid.width = vid.videoWidth;
+      vid.height = vid.videoHeight;
+      callback(null, vid);
+    }, true);
+    vid.src = url;
+    return vid;
+  }
+
   /**
    * Sets a texture to a 1x1 pixel color. If `options.color === false` is nothing happens. If it's not set
    * the default texture color is used which can be set by calling `setDefaultTextureColor`.
@@ -2088,14 +2127,37 @@ define([], function () {
     setTextureTo1PixelColor(gl, tex, options);
     // Because it's async we need to copy the options.
     options = shallowCopy(options);
-    var img = loadImage(options.src, options.crossOrigin, function(err, img) {
-      if (err) {
-        callback(err, tex, img);
-      } else {
-        setTextureFromElement(gl, tex, img, options);
-        callback(null, tex, img);
-      }
-    });
+    var isVideo;
+    if (options.video === undefined) {
+      // Guess from the file extension to see if we're trying to load a video
+      var extension = options.src.substr(-4).toLowerCase();
+      isVideo = [".ogg", ".ogv", ".oga", ".ogx", ".ogm", ".spx", "opus", "webm",
+                 ".mov", ".mp4", ".m4v", ".m4a", ".m4p", ".m4b", ".m4r", ".k3g", ".skm", ".3gp", ".3g2",
+                 ].indexOf(extension) !== -1;
+    } else {
+      isVideo = options.video;
+    }
+    var img;
+    if (isVideo) {
+      img = loadVideo(options.src, options.crossOrigin, function(err, vid) {
+        if (err) {
+          callback(err, tex, vid);
+        } else {
+          setTextureFromElement(gl, tex, vid, options);
+          videoList.push({gl: gl, tex: tex, src: vid, options: options});
+          callback(null, tex, vid);
+        }
+      });
+    } else {
+      img = loadImage(options.src, options.crossOrigin, function(err, img) {
+        if (err) {
+          callback(err, tex, img);
+        } else {
+          setTextureFromElement(gl, tex, img, options);
+          callback(null, tex, img);
+        }
+      });
+    }
     return img;
   }
 
@@ -2794,6 +2856,7 @@ define([], function () {
     "setTextureFromArray": setTextureFromArray,
     "loadTextureFromUrl": loadTextureFromUrl,
     "setTextureFromElement": setTextureFromElement,
+    "updateVideos": updateVideos,
     "setTextureFilteringForSize": setTextureFilteringForSize,
     "setTextureParameters": setTextureParameters,
     "setDefaultTextureColor": setDefaultTextureColor,
