@@ -29,8 +29,6 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-"use strict";
-
 /**
  * Various functions to make simple primitives
  *
@@ -64,14 +62,22 @@
  * @module twgl/primitives
  */
 define([
+    './attributes',
     './twgl',
+    './utils',
     './m4',
     './v3',
-  ], function (
+  ], function(
+    attributes,
     twgl,
+    utils,
     m4,
     v3
   ) {
+  "use strict";
+
+  var getArray = attributes.getArray_;  // eslint-disable-line
+  var getNumComponents = attributes.getNumComponents_;  // eslint-disable-line
 
   /**
    * Add `push` to a typed array. It just keeps a 'cursor'
@@ -126,7 +132,7 @@ define([
    * @param {number} numElements number of elements. The total size of the array will be `numComponents * numElements`.
    * @param {constructor} opt_type A constructor for the type. Default = `Float32Array`.
    * @return {ArrayBuffer} A typed array.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/primitives
    */
   function createAugmentedTypedArray(numComponents, numElements, opt_type) {
     var Type = opt_type || Float32Array;
@@ -1744,6 +1750,7 @@ define([
 
     var firstIndex = 0;
     var radiusSpan = radius - innerRadius;
+    var pointsPerStack = divisions + 1;
 
     // Build the disk one stack at a time.
     for (var stack = 0; stack <= stacks; ++stack) {
@@ -1763,8 +1770,8 @@ define([
           // the vertices a and b connect to the center vertex.
           var a = firstIndex + (i + 1);
           var b = firstIndex + i;
-          var c = firstIndex + i - divisions;
-          var d = firstIndex + (i + 1) - divisions;
+          var c = firstIndex + i - pointsPerStack;
+          var d = firstIndex + (i + 1) - pointsPerStack;
 
           // Make a quad of the vertices a, b, c, d.
           indices.push(a, b, c);
@@ -1811,7 +1818,7 @@ define([
   /**
    * Creates an augmentedTypedArray of random vertex colors.
    * If the vertices are indexed (have an indices array) then will
-   * just make random colors. Otherwise assumes they are triangless
+   * just make random colors. Otherwise assumes they are triangles
    * and makes one random color for every 3 vertices.
    * @param {Object.<string, augmentedTypedArray>} vertices Vertices as returned from one of the createXXXVertices functions.
    * @param {module:twgl/primitives.RandomVerticesOptions} [options] options.
@@ -1867,6 +1874,177 @@ define([
     };
   }
 
+  var arraySpecPropertyNames = [
+    "numComponents",
+    "size",
+    "type",
+    "normalize",
+    "stride",
+    "offset",
+    "attrib",
+    "name",
+    "attribName",
+  ];
+
+  /**
+   * Copy elements from one array to another
+   *
+   * @param {Array|TypedArray} src source array
+   * @param {Array|TypedArray} dst dest array
+   * @param {number} dstNdx index in dest to copy src
+   * @param {number} [offset] offset to add to copied values
+   */
+  function copyElements(src, dst, dstNdx, offset) {
+    offset = offset || 0;
+    var length = src.length;
+    for (var ii = 0; ii < length; ++ii) {
+      dst[dstNdx + ii] = src[ii] + offset;
+    }
+  }
+
+  /**
+   * Creates an array of the same time
+   *
+   * @param {(number[]|ArrayBuffer|module:twgl.FullArraySpec)} srcArray array who's type to copy
+   * @param {number} length size of new array
+   * @return {(number[]|ArrayBuffer|module:twgl.FullArraySpec)} array with same type as srcArray
+   */
+  function createArrayOfSameType(srcArray, length) {
+    var arraySrc = getArray(srcArray);
+    var newArray = new arraySrc.constructor(length);
+    var newArraySpec = newArray;
+    // If it appears to have been augmented make new one augemented
+    if (arraySrc.numComponents && arraySrc.numElements) {
+      augmentTypedArray(newArray, arraySrc.numComponents);
+    }
+    // If it was a fullspec make new one a fullspec
+    if (srcArray.data) {
+      newArraySpec = {
+        data: newArray,
+      };
+      utils.copyNamedProperties(arraySpecPropertyNames, srcArray, newArraySpec);
+    }
+    return newArraySpec;
+  }
+
+  /**
+   * Concatinates sets of vertices
+   *
+   * Assumes the vertices match in composition. For example
+   * if one set of vertices has positions, normals, and indices
+   * all sets of vertices must have positions, normals, and indices
+   * and of the same type.
+   *
+   * Example:
+   *
+   *      var cubeVertices = twgl.primtiives.createCubeVertices(2);
+   *      var sphereVertices = twgl.primitives.createSphereVertices(1, 10, 10);
+   *      // move the sphere 2 units up
+   *      twgl.primitives.reorientVertices(
+   *          sphereVertices, twgl.m4.translation([0, 2, 0]));
+   *      // merge the sphere with the cube
+   *      var cubeSphereVertices = twgl.primitives.concatVertices(
+   *          [cubeVertices, sphereVertices]);
+   *      // turn them into WebGL buffers and attrib data
+   *      var bufferInfo = twgl.createBufferInfoFromArrays(gl, cubeSphereVertices);
+   *
+   * @param {module:twgl.Arrays[]} arrays Array of arrays of vertices
+   * @return {module:twgl.Arrays} The concatinated vertices.
+   * @memberOf module:twgl/primitives
+   */
+  function concatVertices(arrayOfArrays) {
+    var names = {};
+    var baseName;
+    // get names of all arrays.
+    // and numElements for each set of vertices
+    for (var ii = 0; ii < arrayOfArrays.length; ++ii) {
+      var arrays = arrayOfArrays[ii];
+      Object.keys(arrays).forEach(function(name) {  // eslint-disable-line
+        if (!names[name]) {
+          names[name] = [];
+        }
+        if (!baseName && name !== 'indices') {
+          baseName = name;
+        }
+        var arrayInfo = arrays[name];
+        var numComponents = getNumComponents(arrayInfo, name);
+        var array = getArray(arrayInfo);
+        var numElements = array.length / numComponents;
+        names[name].push(numElements);
+      });
+    }
+
+    // compute length of combined array
+    // and return one for reference
+    function getLengthOfCombinedArrays(name) {
+      var length = 0;
+      var arraySpec;
+      for (var ii = 0; ii < arrayOfArrays.length; ++ii) {
+        var arrays = arrayOfArrays[ii];
+        var arrayInfo = arrays[name];
+        var array = getArray(arrayInfo);
+        length += array.length;
+        if (!arraySpec || arrayInfo.data) {
+          arraySpec = arrayInfo;
+        }
+      }
+      return {
+        length: length,
+        spec: arraySpec,
+      };
+    }
+
+    function copyArraysToNewArray(name, base, newArray) {
+      var baseIndex = 0;
+      var offset = 0;
+      for (var ii = 0; ii < arrayOfArrays.length; ++ii) {
+        var arrays = arrayOfArrays[ii];
+        var arrayInfo = arrays[name];
+        var array = getArray(arrayInfo);
+        if (name === 'indices') {
+          copyElements(array, newArray, offset, baseIndex);
+          baseIndex += base[ii];
+        } else {
+          copyElements(array, newArray, offset);
+        }
+        offset += array.length;
+      }
+    }
+
+    var base = names[baseName];
+
+    var newArrays = {};
+    Object.keys(names).forEach(function(name) {
+      var info = getLengthOfCombinedArrays(name);
+      var newArraySpec = createArrayOfSameType(info.spec, info.length);
+      copyArraysToNewArray(name, base, getArray(newArraySpec));
+      newArrays[name] = newArraySpec;
+    });
+    return newArrays;
+  }
+
+  /**
+   * Creates a duplicate set of vertices
+   *
+   * This is useful for calling reorientVertices when you
+   * also want to keep the original available
+   *
+   * @param {module:twgl.Arrays} arrays of vertices
+   * @return {module:twgl.Arrays} The dupilicated vertices.
+   * @memberOf module:twgl/primitives
+   */
+  function duplicateVertices(arrays) {
+    var newArrays = {};
+    Object.keys(arrays).forEach(function(name) {
+      var arraySpec = arrays[name];
+      var srcArray = getArray(arraySpec);
+      var newArraySpec = createArrayOfSameType(arraySpec, srcArray.length);
+      copyElements(srcArray, getArray(newArraySpec), 0);
+      newArrays[name] = newArraySpec;
+    });
+    return newArrays;
+  }
+
   // Using quotes prevents Uglify from changing the names.
   // No speed diff AFAICT.
   return {
@@ -1908,6 +2086,8 @@ define([
     "reorientNormals": reorientNormals,
     "reorientPositions": reorientPositions,
     "reorientVertices": reorientVertices,
+    "concatVertices": concatVertices,
+    "duplicateVertices": duplicateVertices,
   };
 
 });

@@ -28,9 +28,9 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-"use strict";
 
-define([], function () {
+define([], function() {
+  "use strict";
 
   /**
    *
@@ -69,9 +69,12 @@ define([], function () {
   /**
    * Sets the type this library creates for a Vec3
    * @param {constructor} ctor the constructor for the type. Either `Float32Array` or `Array`
+   * @return {constructor} previous constructor for Vec3
    */
   function setDefaultType(ctor) {
-      VecType = ctor;
+    var oldType = VecType;
+    VecType = ctor;
+    return oldType;
   }
 
   /**

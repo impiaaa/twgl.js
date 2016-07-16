@@ -22,7 +22,7 @@
 chroma.brewer=brewer={OrRd:["#fff7ec","#fee8c8","#fdd49e","#fdbb84","#fc8d59","#ef6548","#d7301f","#b30000","#7f0000"],PuBu:["#fff7fb","#ece7f2","#d0d1e6","#a6bddb","#74a9cf","#3690c0","#0570b0","#045a8d","#023858"],BuPu:["#f7fcfd","#e0ecf4","#bfd3e6","#9ebcda","#8c96c6","#8c6bb1","#88419d","#810f7c","#4d004b"],Oranges:["#fff5eb","#fee6ce","#fdd0a2","#fdae6b","#fd8d3c","#f16913","#d94801","#a63603","#7f2704"],BuGn:["#f7fcfd","#e5f5f9","#ccece6","#99d8c9","#66c2a4","#41ae76","#238b45","#006d2c","#00441b"],YlOrBr:["#ffffe5","#fff7bc","#fee391","#fec44f","#fe9929","#ec7014","#cc4c02","#993404","#662506"],YlGn:["#ffffe5","#f7fcb9","#d9f0a3","#addd8e","#78c679","#41ab5d","#238443","#006837","#004529"],Reds:["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c","#cb181d","#a50f15","#67000d"],RdPu:["#fff7f3","#fde0dd","#fcc5c0","#fa9fb5","#f768a1","#dd3497","#ae017e","#7a0177","#49006a"],Greens:["#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","#74c476","#41ab5d","#238b45","#006d2c","#00441b"],YlGnBu:["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"],Purples:["#fcfbfd","#efedf5","#dadaeb","#bcbddc","#9e9ac8","#807dba","#6a51a3","#54278f","#3f007d"],GnBu:["#f7fcf0","#e0f3db","#ccebc5","#a8ddb5","#7bccc4","#4eb3d3","#2b8cbe","#0868ac","#084081"],Greys:["#ffffff","#f0f0f0","#d9d9d9","#bdbdbd","#969696","#737373","#525252","#252525","#000000"],YlOrRd:["#ffffcc","#ffeda0","#fed976","#feb24c","#fd8d3c","#fc4e2a","#e31a1c","#bd0026","#800026"],PuRd:["#f7f4f9","#e7e1ef","#d4b9da","#c994c7","#df65b0","#e7298a","#ce1256","#980043","#67001f"],Blues:["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"],PuBuGn:["#fff7fb","#ece2f0","#d0d1e6","#a6bddb","#67a9cf","#3690c0","#02818a","#016c59","#014636"],Spectral:["#9e0142","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf","#e6f598","#abdda4","#66c2a5","#3288bd","#5e4fa2"],RdYlGn:["#a50026","#d73027","#f46d43","#fdae61","#fee08b","#ffffbf","#d9ef8b","#a6d96a","#66bd63","#1a9850","#006837"],RdBu:["#67001f","#b2182b","#d6604d","#f4a582","#fddbc7","#f7f7f7","#d1e5f0","#92c5de","#4393c3","#2166ac","#053061"],PiYG:["#8e0152","#c51b7d","#de77ae","#f1b6da","#fde0ef","#f7f7f7","#e6f5d0","#b8e186","#7fbc41","#4d9221","#276419"],PRGn:["#40004b","#762a83","#9970ab","#c2a5cf","#e7d4e8","#f7f7f7","#d9f0d3","#a6dba0","#5aae61","#1b7837","#00441b"],RdYlBu:["#a50026","#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4","#313695"],BrBG:["#543005","#8c510a","#bf812d","#dfc27d","#f6e8c3","#f5f5f5","#c7eae5","#80cdc1","#35978f","#01665e","#003c30"],RdGy:["#67001f","#b2182b","#d6604d","#f4a582","#fddbc7","#ffffff","#e0e0e0","#bababa","#878787","#4d4d4d","#1a1a1a"],PuOr:["#7f3b08","#b35806","#e08214","#fdb863","#fee0b6","#f7f7f7","#d8daeb","#b2abd2","#8073ac","#542788","#2d004b"],Set2:["#66c2a5","#fc8d62","#8da0cb","#e78ac3","#a6d854","#ffd92f","#e5c494","#b3b3b3"],Accent:["#7fc97f","#beaed4","#fdc086","#ffff99","#386cb0","#f0027f","#bf5b17","#666666"],Set1:["#e41a1c","#377eb8","#4daf4a","#984ea3","#ff7f00","#ffff33","#a65628","#f781bf","#999999"],Set3:["#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"],Dark2:["#1b9e77","#d95f02","#7570b3","#e7298a","#66a61e","#e6ab02","#a6761d","#666666"],Paired:["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c","#fdbf6f","#ff7f00","#cab2d6","#6a3d9a","#ffff99","#b15928"],Pastel2:["#b3e2cd","#fdcdac","#cbd5e8","#f4cae4","#e6f5c9","#fff2ae","#f1e2cc","#cccccc"],Pastel1:["#fbb4ae","#b3cde3","#ccebc5","#decbe4","#fed9a6","#ffffcc","#e5d8bd","#fddaec","#f2f2f2"]};chroma.colors=colors={indigo:"#4b0082",gold:"#ffd700",hotpink:"#ff69b4",firebrick:"#b22222",indianred:"#cd5c5c",yellow:"#ffff00",mistyrose:"#ffe4e1",darkolivegreen:"#556b2f",olive:"#808000",darkseagreen:"#8fbc8f",pink:"#ffc0cb",tomato:"#ff6347",lightcoral:"#f08080",orangered:"#ff4500",navajowhite:"#ffdead",lime:"#00ff00",palegreen:"#98fb98",darkslategrey:"#2f4f4f",greenyellow:"#adff2f",burlywood:"#deb887",seashell:"#fff5ee",mediumspringgreen:"#00fa9a",fuchsia:"#ff00ff",papayawhip:"#ffefd5",blanchedalmond:"#ffebcd",chartreuse:"#7fff00",dimgray:"#696969",black:"#000000",peachpuff:"#ffdab9",springgreen:"#00ff7f",aquamarine:"#7fffd4",white:"#ffffff",orange:"#ffa500",lightsalmon:"#ffa07a",darkslategray:"#2f4f4f",brown:"#a52a2a",ivory:"#fffff0",dodgerblue:"#1e90ff",peru:"#cd853f",lawngreen:"#7cfc00",chocolate:"#d2691e",crimson:"#dc143c",forestgreen:"#228b22",darkgrey:"#a9a9a9",lightseagreen:"#20b2aa",cyan:"#00ffff",mintcream:"#f5fffa",silver:"#c0c0c0",antiquewhite:"#faebd7",mediumorchid:"#ba55d3",skyblue:"#87ceeb",gray:"#808080",darkturquoise:"#00ced1",goldenrod:"#daa520",darkgreen:"#006400",floralwhite:"#fffaf0",darkviolet:"#9400d3",darkgray:"#a9a9a9",moccasin:"#ffe4b5",saddlebrown:"#8b4513",grey:"#808080",darkslateblue:"#483d8b",lightskyblue:"#87cefa",lightpink:"#ffb6c1",mediumvioletred:"#c71585",slategrey:"#708090",red:"#ff0000",deeppink:"#ff1493",limegreen:"#32cd32",darkmagenta:"#8b008b",palegoldenrod:"#eee8aa",plum:"#dda0dd",turquoise:"#40e0d0",lightgrey:"#d3d3d3",lightgoldenrodyellow:"#fafad2",darkgoldenrod:"#b8860b",lavender:"#e6e6fa",maroon:"#800000",yellowgreen:"#9acd32",sandybrown:"#f4a460",thistle:"#d8bfd8",violet:"#ee82ee",navy:"#000080",magenta:"#ff00ff",dimgrey:"#696969",tan:"#d2b48c",rosybrown:"#bc8f8f",olivedrab:"#6b8e23",blue:"#0000ff",lightblue:"#add8e6",ghostwhite:"#f8f8ff",honeydew:"#f0fff0",cornflowerblue:"#6495ed",slateblue:"#6a5acd",linen:"#faf0e6",darkblue:"#00008b",powderblue:"#b0e0e6",seagreen:"#2e8b57",darkkhaki:"#bdb76b",snow:"#fffafa",sienna:"#a0522d",mediumblue:"#0000cd",royalblue:"#4169e1",lightcyan:"#e0ffff",green:"#008000",mediumpurple:"#9370db",midnightblue:"#191970",cornsilk:"#fff8dc",paleturquoise:"#afeeee",bisque:"#ffe4c4",slategray:"#708090",darkcyan:"#008b8b",khaki:"#f0e68c",wheat:"#f5deb3",teal:"#008080",darkorchid:"#9932cc",deepskyblue:"#00bfff",salmon:"#fa8072",darkred:"#8b0000",steelblue:"#4682b4",palevioletred:"#db7093",lightslategray:"#778899",aliceblue:"#f0f8ff",lightslategrey:"#778899",lightgreen:"#90ee90",orchid:"#da70d6",gainsboro:"#dcdcdc",mediumseagreen:"#3cb371",lightgray:"#d3d3d3",mediumturquoise:"#48d1cc",lemonchiffon:"#fffacd",cadetblue:"#5f9ea0",lightyellow:"#ffffe0",lavenderblush:"#fff0f5",coral:"#ff7f50",purple:"#800080",aqua:"#00ffff",whitesmoke:"#f5f5f5",mediumslateblue:"#7b68ee",darkorange:"#ff8c00",mediumaquamarine:"#66cdaa",darksalmon:"#e9967a",beige:"#f5f5dc",blueviolet:"#8a2be2",azure:"#f0ffff",lightsteelblue:"#b0c4de",oldlace:"#fdf5e6"};type=function(){var classToType,name,_i,_len,_ref1;classToType={};_ref1="Boolean Number String Function Array Date RegExp Undefined Null".split(" ");for(_i=0,_len=_ref1.length;_i<_len;_i++){name=_ref1[_i];classToType["[object "+name+"]"]=name.toLowerCase()}return function(obj){var strType;strType=Object.prototype.toString.call(obj);return classToType[strType]||"object"}}();limit=function(x,min,max){if(min==null){min=0}if(max==null){max=1}if(x<min){x=min}if(x>max){x=max}return x};unpack=function(args){if(args.length>=3){return args}else{return args[0]}};TWOPI=Math.PI*2;PITHIRD=Math.PI/3;cos=Math.cos;bezier=function(colors){var I,I0,I1,c,lab0,lab1,lab2,lab3,_ref1,_ref2,_ref3;colors=function(){var _i,_len,_results;_results=[];for(_i=0,_len=colors.length;_i<_len;_i++){c=colors[_i];_results.push(chroma(c))}return _results}();if(colors.length===2){_ref1=function(){var _i,_len,_results;_results=[];for(_i=0,_len=colors.length;_i<_len;_i++){c=colors[_i];_results.push(c.lab())}return _results}(),lab0=_ref1[0],lab1=_ref1[1];I=function(t){var i,lab;lab=function(){var _i,_results;_results=[];for(i=_i=0;_i<=2;i=++_i){_results.push(lab0[i]+t*(lab1[i]-lab0[i]))}return _results}();return chroma.lab.apply(chroma,lab)}}else if(colors.length===3){_ref2=function(){var _i,_len,_results;_results=[];for(_i=0,_len=colors.length;_i<_len;_i++){c=colors[_i];_results.push(c.lab())}return _results}(),lab0=_ref2[0],lab1=_ref2[1],lab2=_ref2[2];I=function(t){var i,lab;lab=function(){var _i,_results;_results=[];for(i=_i=0;_i<=2;i=++_i){_results.push((1-t)*(1-t)*lab0[i]+2*(1-t)*t*lab1[i]+t*t*lab2[i])}return _results}();return chroma.lab.apply(chroma,lab)}}else if(colors.length===4){_ref3=function(){var _i,_len,_results;_results=[];for(_i=0,_len=colors.length;_i<_len;_i++){c=colors[_i];_results.push(c.lab())}return _results}(),lab0=_ref3[0],lab1=_ref3[1],lab2=_ref3[2],lab3=_ref3[3];I=function(t){var i,lab;lab=function(){var _i,_results;_results=[];for(i=_i=0;_i<=2;i=++_i){_results.push((1-t)*(1-t)*(1-t)*lab0[i]+3*(1-t)*(1-t)*t*lab1[i]+3*(1-t)*t*t*lab2[i]+t*t*t*lab3[i])}return _results}();return chroma.lab.apply(chroma,lab)}}else if(colors.length===5){I0=bezier(colors.slice(0,3));I1=bezier(colors.slice(2,5));I=function(t){if(t<.5){return I0(t*2)}else{return I1((t-.5)*2)}}}return I};chroma.interpolate.bezier=bezier}.call(this);
 },{}],2:[function(require,module,exports){
 /**
- * @license twgl.js 0.0.40 Copyright (c) 2015, Gregg Tavares All Rights Reserved.
+ * @license twgl.js 1.7.2 Copyright (c) 2015, Gregg Tavares All Rights Reserved.
  * Available via the MIT license.
  * see: http://github.com/greggman/twgl.js for details
  */
@@ -504,29 +504,27 @@ define("node_modules/almond/almond.js", function(){});
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+define('twgl/typedarrays',[], function() {
+  
 
-
-define('twgl/twgl',[], function () {
   /**
-   * The main TWGL module.
+   * Low level shader typed array related functions
    *
-   * @module twgl
+   * You should generally not need to use these functions. They are provided
+   * for those cases where you're doing something out of the ordinary
+   * and you need lower level access.
+   *
+   * For backward compatibily they are available at both `twgl.typedArray` and `twgl`
+   * itself
+   *
+   * See {@link module:twgl} for core functions
+   *
+   * @module twgl/typedArray
    */
 
-  var error =
-      (    window.console
-        && window.console.error
-        && typeof window.console.error === "function"
-      )
-      ? window.console.error.bind(window.console)
-      : function() { };
+
   // make sure we don't see a global gl
   var gl = undefined;  // eslint-disable-line
-  var defaults = {
-    attribPrefix: "",
-    textureColor: new Uint8Array([128, 192, 255, 255]),
-    textureOptions: {},
-  };
 
   /* DataType */
   var BYTE                           = 0x1400;
@@ -537,57 +535,252 @@ define('twgl/twgl',[], function () {
   var UNSIGNED_INT                   = 0x1405;
   var FLOAT                          = 0x1406;
 
-  /* PixelFormat */
-  var DEPTH_COMPONENT                = 0x1902;
-  var ALPHA                          = 0x1906;
-  var RGB                            = 0x1907;
-  var RGBA                           = 0x1908;
-  var LUMINANCE                      = 0x1909;
-  var LUMINANCE_ALPHA                = 0x190A;
-
-  /* Framebuffer Object. */
-  var RGBA4                          = 0x8056;
-  var RGB5_A1                        = 0x8057;
-  var RGB565                         = 0x8D62;
-  var DEPTH_COMPONENT16              = 0x81A5;
-  var STENCIL_INDEX                  = 0x1901;
-  var STENCIL_INDEX8                 = 0x8D48;
-  var DEPTH_STENCIL                  = 0x84F9;
-  var COLOR_ATTACHMENT0              = 0x8CE0;
-  var DEPTH_ATTACHMENT               = 0x8D00;
-  var STENCIL_ATTACHMENT             = 0x8D20;
-  var DEPTH_STENCIL_ATTACHMENT       = 0x821A;
-
-  /* TextureWrapMode */
-  var REPEAT                         = 0x2901;  // eslint-disable-line
-  var CLAMP_TO_EDGE                  = 0x812F;
-  var MIRRORED_REPEAT                = 0x8370;  // eslint-disable-line
-
-  /* TextureMagFilter */
-  var NEAREST                        = 0x2600;  // eslint-disable-line
-  var LINEAR                         = 0x2601;
-
-  /* TextureMinFilter */
-  var NEAREST_MIPMAP_NEAREST         = 0x2700;  // eslint-disable-line
-  var LINEAR_MIPMAP_NEAREST          = 0x2701;  // eslint-disable-line
-  var NEAREST_MIPMAP_LINEAR          = 0x2702;  // eslint-disable-line
-  var LINEAR_MIPMAP_LINEAR           = 0x2703;  // eslint-disable-line
+  /**
+   * Get the GL type for a typedArray
+   * @param {ArrayBuffer|ArrayBufferView} typedArray a typedArray
+   * @return {number} the GL type for array. For example pass in an `Int8Array` and `gl.BYTE` will
+   *   be returned. Pass in a `Uint32Array` and `gl.UNSIGNED_INT` will be returned
+   * @memberOf module:twgl/typedArray
+   */
+  function getGLTypeForTypedArray(typedArray) {
+    if (typedArray instanceof Int8Array)         { return BYTE; }           // eslint-disable-line
+    if (typedArray instanceof Uint8Array)        { return UNSIGNED_BYTE; }  // eslint-disable-line
+    if (typedArray instanceof Uint8ClampedArray) { return UNSIGNED_BYTE; }  // eslint-disable-line
+    if (typedArray instanceof Int16Array)        { return SHORT; }          // eslint-disable-line
+    if (typedArray instanceof Uint16Array)       { return UNSIGNED_SHORT; } // eslint-disable-line
+    if (typedArray instanceof Int32Array)        { return INT; }            // eslint-disable-line
+    if (typedArray instanceof Uint32Array)       { return UNSIGNED_INT; }   // eslint-disable-line
+    if (typedArray instanceof Float32Array)      { return FLOAT; }          // eslint-disable-line
+    throw "unsupported typed array type";
+  }
 
   /**
-   * Sets the default texture color.
+   * Get the typed array constructor for a given GL type
+   * @param {number} type the GL type. (eg: `gl.UNSIGNED_INT`)
+   * @return {function} the constructor for a the corresponding typed array. (eg. `Uint32Array`).
+   * @memberOf module:twgl/typedArray
+   */
+  function getTypedArrayTypeForGLType(type) {
+    switch (type) {
+      case BYTE:           return Int8Array;     // eslint-disable-line
+      case UNSIGNED_BYTE:  return Uint8Array;    // eslint-disable-line
+      case SHORT:          return Int16Array;    // eslint-disable-line
+      case UNSIGNED_SHORT: return Uint16Array;   // eslint-disable-line
+      case INT:            return Int32Array;    // eslint-disable-line
+      case UNSIGNED_INT:   return Uint32Array;   // eslint-disable-line
+      case FLOAT:          return Float32Array;  // eslint-disable-line
+      default:
+        throw "unknown gl type";
+    }
+  }
+
+  function isArrayBuffer(a) {
+    return a && a.buffer && a.buffer instanceof ArrayBuffer;
+  }
+
+  // Using quotes prevents Uglify from changing the names.
+  return {
+    "getGLTypeForTypedArray": getGLTypeForTypedArray,
+    "getTypedArrayTypeForGLType": getTypedArrayTypeForGLType,
+    "isArrayBuffer": isArrayBuffer,
+  };
+});
+
+
+/*
+ * Copyright 2015, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of his
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+define('twgl/utils',[], function() {
+  
+
+  /**
+   * Copy an object 1 level deep
+   * @param {object} src object to copy
+   * @return {object} the copy
+   */
+  function shallowCopy(src) {
+    var dst = {};
+    Object.keys(src).forEach(function(key) {
+      dst[key] = src[key];
+    });
+    return dst;
+  }
+
+  /**
+   * Copy named properties
    *
-   * The default texture color is used when loading textures from
-   * urls. Because the URL will be loaded async we'd like to be
-   * able to use the texture immediately. By putting a 1x1 pixel
-   * color in the texture we can start using the texture before
-   * the URL has loaded.
+   * @param {string[]} names names of properties to copy
+   * @param {object} src object to copy properties from
+   * @param {object} dst object to copy properties to
+   */
+  function copyNamedProperties(names, src, dst) {
+    names.forEach(function(name) {
+      var value = src[name];
+      if (value !== undefined) {
+        dst[name] = value;
+      }
+    });
+  }
+
+  /**
+   * Copies properties from source to dest only if a matching key is in dest
    *
-   * @param {number[]} color Array of 4 values in the range 0 to 1
+   * @param {Object.<string, ?>} src the source
+   * @param {Object.<string, ?>} dst the dest
+   */
+  function copyExistingProperties(src, dst) {
+    Object.keys(dst).forEach(function(key) {
+      if (dst.hasOwnProperty(key) && src.hasOwnProperty(key)) {
+        dst[key] = src[key];
+      }
+    });
+  }
+
+  /**
+   * Gets the gl version as a number
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext
+   * @return {number} version of gl
+   */
+  function getVersionAsNumber(gl) {
+    return parseFloat(gl.getParameter(gl.VERSION).substr(6));
+  }
+
+  /**
+   * Check if context is WebGL 2.0
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext
+   * @return {bool} true if it's WebGL 2.0
    * @memberOf module:twgl
    */
-  function setDefaultTextureColor(color) {
-    defaults.textureColor = new Uint8Array([color[0] * 255, color[1] * 255, color[2] * 255, color[3] * 255]);
+  function isWebGL2(gl) {
+    return gl.getParameter(gl.VERSION).indexOf("WebGL 2.0") === 0;
   }
+
+  /**
+   * Check if context is WebGL 1.0
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext
+   * @return {bool} true if it's WebGL 1.0
+   * @memberOf module:twgl
+   */
+  function isWebGL1(gl) {
+    var version = getVersionAsNumber(gl);
+    return version <= 1.0 && version > 0.0;  // because as of 2016/5 Edge returns 0.96
+  }
+
+  var error =
+      (    window.console
+        && window.console.error
+        && typeof window.console.error === "function"
+      )
+      ? window.console.error.bind(window.console)
+      : function() { };
+
+  var warn =
+      (    window.console
+        && window.console.warn
+        && typeof window.console.warn === "function"
+      )
+      ? window.console.warn.bind(window.console)
+      : function() { };
+
+  return {
+    copyExistingProperties: copyExistingProperties,
+    copyNamedProperties: copyNamedProperties,
+    shallowCopy: shallowCopy,
+    isWebGL1: isWebGL1,
+    isWebGL2: isWebGL2,
+    error: error,
+    warn: warn,
+  };
+});
+
+
+/*
+ * Copyright 2015, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of his
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+define('twgl/attributes',[
+    './typedarrays',
+    './utils',
+  ], function(
+    typedArrays,
+    utils) {
+  
+
+  /**
+   * Low level attribute and buffer related functions
+   *
+   * You should generally not need to use these functions. They are provided
+   * for those cases where you're doing something out of the ordinary
+   * and you need lower level access.
+   *
+   * For backward compatibily they are available at both `twgl.attributes` and `twgl`
+   * itself
+   *
+   * See {@link module:twgl} for core functions
+   *
+   * @module twgl/attributes
+   */
+
+  // make sure we don't see a global gl
+  var gl = undefined;  // eslint-disable-line
+  var defaults = {
+    attribPrefix: "",
+  };
 
   /**
    * Sets the default attrib prefix
@@ -605,864 +798,16 @@ define('twgl/twgl',[], function () {
    *
    * But need those mapped to attributes and my attributes start with `a_`.
    *
+   * @deprecated see {@link module:twgl.setDefaults}
    * @param {string} prefix prefix for attribs
-   * @memberOf module:twgl
+   * @memberOf module:twgl/attributes
    */
   function setAttributePrefix(prefix) {
     defaults.attribPrefix = prefix;
   }
 
-  var invalidDefaultKeysRE = /^textureColor$/;
-  function validDefaultKeys(key) {
-    return !invalidDefaultKeysRE.test(key);
-  }
-
-  /**
-   * Various default settings for twgl.
-   *
-   * Note: You can call this any number of times. Example:
-   *
-   *     twgl.setDefaults({ textureColor: [1, 0, 0, 1] });
-   *     twgl.setDefaults({ attribPrefix: 'a_' });
-   *
-   * is equivalent to
-   *
-   *     twgl.setDefaults({
-   *       textureColor: [1, 0, 0, 1],
-   *       attribPrefix: 'a_',
-   *     });
-   *
-   * @typedef {Object} Defaults
-   * @property {string} attribPrefix The prefix to stick on attributes
-   *
-   *   When writing shaders I prefer to name attributes with `a_`, uniforms with `u_` and varyings with `v_`
-   *   as it makes it clear where they came from. But, when building geometry I prefer using unprefixed names.
-   *
-   *   In otherwords I'll create arrays of geometry like this
-   *
-   *       var arrays = {
-   *         position: ...
-   *         normal: ...
-   *         texcoord: ...
-   *       };
-   *
-   *   But need those mapped to attributes and my attributes start with `a_`.
-   *
-   *   Default: `""`
-   *
-   * @property {number[]} textureColor Array of 4 values in the range 0 to 1
-   *
-   *   The default texture color is used when loading textures from
-   *   urls. Because the URL will be loaded async we'd like to be
-   *   able to use the texture immediately. By putting a 1x1 pixel
-   *   color in the texture we can start using the texture before
-   *   the URL has loaded.
-   *
-   *   Default: `[0.5, 0.75, 1, 1]`
-   *
-   * @property {string} crossOrigin
-   *
-   *   If not undefined sets the crossOrigin attribute on images
-   *   that twgl creates when downloading images for textures.
-   *
-   *   Also see {@link module:twgl.TextureOptions}.
-   *
-   * @memberOf module:twgl
-   */
-
-  /**
-   * Sets various defaults for twgl.
-   *
-   * In the interest of terseness which is kind of the point
-   * of twgl I've integrated a few of the older functions here
-   *
-   * @param {module:twgl.Defaults} newDefaults The default settings.
-   * @memberOf module:twgl
-   */
   function setDefaults(newDefaults) {
-    if (newDefaults.textureColor) {
-      setDefaultTextureColor(newDefaults.textureColor);
-    }
-    Object.keys(newDefaults).filter(validDefaultKeys).forEach(function(key) {
-      defaults[key] = newDefaults[key];
-    });
-  }
-
-  /**
-   * Gets a string for gl enum
-   *
-   * Note: Several enums are the same. Without more
-   * context (which function) it's impossible to always
-   * give the correct enum.
-   *
-   * @param {WebGLRenderingContext} gl A WebGLRenderingContext
-   * @param {number} value the value of the enum you want to look up.
-   */
-  var glEnumToString = (function() {
-    var enums;
-
-    function init(gl) {
-      if (!enums) {
-        enums = {};
-        Object.keys(gl).forEach(function(key) {
-          if (typeof gl[key] === 'number') {
-            enums[gl[key]] = key;
-          }
-        });
-      }
-    }
-
-    return function glEnumToString(gl, value) {
-      init();
-      return enums[value] || ("0x" + value.toString(16));
-    };
-  }());
-
-  /**
-   * Creates a webgl context.
-   * @param {HTMLCanvasElement} canvas The canvas tag to get
-   *     context from. If one is not passed in one will be
-   *     created.
-   * @return {WebGLRenderingContext} The created context.
-   */
-  function create3DContext(canvas, opt_attribs) {
-    var names = ["webgl", "experimental-webgl"];
-    var context = null;
-    for (var ii = 0; ii < names.length; ++ii) {
-      try {
-        context = canvas.getContext(names[ii], opt_attribs);
-      } catch(e) {}  // eslint-disable-line
-      if (context) {
-        break;
-      }
-    }
-    return context;
-  }
-
-  /**
-   * Gets a WebGL context.
-   * @param {HTMLCanvasElement} canvas a canvas element.
-   * @param {WebGLContextCreationAttirbutes} [opt_attribs] optional webgl context creation attributes
-   * @memberOf module:twgl
-   */
-  function getWebGLContext(canvas, opt_attribs) {
-    var gl = create3DContext(canvas, opt_attribs);
-    return gl;
-  }
-
-  /**
-   * Error Callback
-   * @callback ErrorCallback
-   * @param {string} msg error message.
-   * @memberOf module:twgl
-   */
-
-  function addLineNumbers(src) {
-    return src.split("\n").map(function(line, ndx) {
-      return (ndx + 1) + ": " + line;
-    }).join("\n");
-  }
-
-  /**
-   * Loads a shader.
-   * @param {WebGLRenderingContext} gl The WebGLRenderingContext to use.
-   * @param {string} shaderSource The shader source.
-   * @param {number} shaderType The type of shader.
-   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors.
-   * @return {WebGLShader} The created shader.
-   */
-  function loadShader(gl, shaderSource, shaderType, opt_errorCallback) {
-    var errFn = opt_errorCallback || error;
-    // Create the shader object
-    var shader = gl.createShader(shaderType);
-
-    // Load the shader source
-    gl.shaderSource(shader, shaderSource);
-
-    // Compile the shader
-    gl.compileShader(shader);
-
-    // Check the compile status
-    var compiled = gl.getShaderParameter(shader, gl.COMPILE_STATUS);
-    if (!compiled) {
-      // Something went wrong during compilation; get the error
-      var lastError = gl.getShaderInfoLog(shader);
-      errFn(addLineNumbers(shaderSource) + "\n*** Error compiling shader: " + lastError);
-      gl.deleteShader(shader);
-      return null;
-    }
-
-    return shader;
-  }
-
-  /**
-   * Creates a program, attaches shaders, binds attrib locations, links the
-   * program and calls useProgram.
-   * @param {WebGLShader[]} shaders The shaders to attach
-   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
-   * @param {number[]} [opt_locations] The locations for the. A parallel array to opt_attribs letting you assign locations.
-   * @param {module:twgl.ErrorCallback} [opt_errorCallback] callback for errors. By default it just prints an error to the console
-   *        on error. If you want something else pass an callback. It's passed an error message.
-   * @return {WebGLProgram?} the created program or null if error.
-   * @memberOf module:twgl
-   */
-  function createProgram(
-      gl, shaders, opt_attribs, opt_locations, opt_errorCallback) {
-    var errFn = opt_errorCallback || error;
-    var program = gl.createProgram();
-    shaders.forEach(function(shader) {
-      gl.attachShader(program, shader);
-    });
-    if (opt_attribs) {
-      opt_attribs.forEach(function(attrib,  ndx) {
-        gl.bindAttribLocation(
-            program,
-            opt_locations ? opt_locations[ndx] : ndx,
-            attrib);
-      });
-    }
-    gl.linkProgram(program);
-
-    // Check the link status
-    var linked = gl.getProgramParameter(program, gl.LINK_STATUS);
-    if (!linked) {
-        // something went wrong with the link
-        var lastError = gl.getProgramInfoLog(program);
-        errFn("Error in program linking:" + lastError);
-
-        gl.deleteProgram(program);
-        return null;
-    }
-    return program;
-  }
-
-  /**
-   * Loads a shader from a script tag.
-   * @param {WebGLRenderingContext} gl The WebGLRenderingContext to use.
-   * @param {string} scriptId The id of the script tag.
-   * @param {number} [opt_shaderType] The type of shader. If not passed in it will
-   *     be derived from the type of the script tag.
-   * @param {module:twgl.ErrorCallback} [opt_errorCallback] callback for errors.
-   * @return {WebGLShader?} The created shader or null if error.
-   */
-  function createShaderFromScript(
-      gl, scriptId, opt_shaderType, opt_errorCallback) {
-    var shaderSource = "";
-    var shaderType;
-    var shaderScript = document.getElementById(scriptId);
-    if (!shaderScript) {
-      throw "*** Error: unknown script element" + scriptId;
-    }
-    shaderSource = shaderScript.text;
-
-    if (!opt_shaderType) {
-      if (shaderScript.type === "x-shader/x-vertex") {
-        shaderType = gl.VERTEX_SHADER;
-      } else if (shaderScript.type === "x-shader/x-fragment") {
-        shaderType = gl.FRAGMENT_SHADER;
-      } else if (shaderType !== gl.VERTEX_SHADER && shaderType !== gl.FRAGMENT_SHADER) {
-        throw "*** Error: unknown shader type";
-      }
-    }
-
-    return loadShader(
-        gl, shaderSource, opt_shaderType ? opt_shaderType : shaderType,
-        opt_errorCallback);
-  }
-
-  var defaultShaderType = [
-    "VERTEX_SHADER",
-    "FRAGMENT_SHADER",
-  ];
-
-  /**
-   * Creates a program from 2 script tags.
-   *
-   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
-   *        to use.
-   * @param {string[]} shaderScriptIds Array of ids of the script
-   *        tags for the shaders. The first is assumed to be the
-   *        vertex shader, the second the fragment shader.
-   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
-   * @param {number[]} [opt_locations] The locations for the. A parallel array to opt_attribs letting you assign locations.
-   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors. By default it just prints an error to the console
-   *        on error. If you want something else pass an callback. It's passed an error message.
-   * @return {WebGLProgram} The created program.
-   * @memberOf module:twgl
-   */
-  function createProgramFromScripts(
-      gl, shaderScriptIds, opt_attribs, opt_locations, opt_errorCallback) {
-    var shaders = [];
-    for (var ii = 0; ii < shaderScriptIds.length; ++ii) {
-      var shader = createShaderFromScript(
-          gl, shaderScriptIds[ii], gl[defaultShaderType[ii]], opt_errorCallback);
-      if (!shader) {
-        return null;
-      }
-      shaders.push(shader);
-    }
-    return createProgram(gl, shaders, opt_attribs, opt_locations, opt_errorCallback);
-  }
-
-  /**
-   * Creates a program from 2 sources.
-   *
-   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
-   *        to use.
-   * @param {string[]} shaderSourcess Array of sources for the
-   *        shaders. The first is assumed to be the vertex shader,
-   *        the second the fragment shader.
-   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
-   * @param {number[]} [opt_locations] The locations for the. A parallel array to opt_attribs letting you assign locations.
-   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors. By default it just prints an error to the console
-   *        on error. If you want something else pass an callback. It's passed an error message.
-   * @return {WebGLProgram} The created program.
-   * @memberOf module:twgl
-   */
-  function createProgramFromSources(
-      gl, shaderSources, opt_attribs, opt_locations, opt_errorCallback) {
-    var shaders = [];
-    for (var ii = 0; ii < shaderSources.length; ++ii) {
-      var shader = loadShader(
-          gl, shaderSources[ii], gl[defaultShaderType[ii]], opt_errorCallback);
-      if (!shader) {
-        return null;
-      }
-      shaders.push(shader);
-    }
-    return createProgram(gl, shaders, opt_attribs, opt_locations, opt_errorCallback);
-  }
-
-  /**
-   * Returns the corresponding bind point for a given sampler type
-   */
-  function getBindPointForSamplerType(gl, type) {
-    if (type === gl.SAMPLER_2D) {
-      return gl.TEXTURE_2D;
-    }
-    if (type === gl.SAMPLER_CUBE) {
-      return gl.TEXTURE_CUBE_MAP;
-    }
-  }
-
-  /**
-   * @typedef {Object.<string,function>} Setters
-   */
-
-  /**
-   * Creates setter functions for all uniforms of a shader
-   * program.
-   *
-   * @see {@link module:twgl.setUniforms}
-   *
-   * @param {WebGLProgram} program the program to create setters for.
-   * @returns {Object.<string, function>} an object with a setter by name for each uniform
-   * @memberOf module:twgl
-   */
-  function createUniformSetters(gl, program) {
-    var textureUnit = 0;
-
-    /**
-     * Creates a setter for a uniform of the given program with it's
-     * location embedded in the setter.
-     * @param {WebGLProgram} program
-     * @param {WebGLUniformInfo} uniformInfo
-     * @returns {function} the created setter.
-     */
-    function createUniformSetter(program, uniformInfo) {
-      var location = gl.getUniformLocation(program, uniformInfo.name);
-      var type = uniformInfo.type;
-      // Check if this uniform is an array
-      var isArray = (uniformInfo.size > 1 && uniformInfo.name.substr(-3) === "[0]");
-      if (type === gl.FLOAT && isArray) {
-        return function(v) {
-          gl.uniform1fv(location, v);
-        };
-      }
-      if (type === gl.FLOAT) {
-        return function(v) {
-          gl.uniform1f(location, v);
-        };
-      }
-      if (type === gl.FLOAT_VEC2) {
-        return function(v) {
-          gl.uniform2fv(location, v);
-        };
-      }
-      if (type === gl.FLOAT_VEC3) {
-        return function(v) {
-          gl.uniform3fv(location, v);
-        };
-      }
-      if (type === gl.FLOAT_VEC4) {
-        return function(v) {
-          gl.uniform4fv(location, v);
-        };
-      }
-      if (type === gl.INT && isArray) {
-        return function(v) {
-          gl.uniform1iv(location, v);
-        };
-      }
-      if (type === gl.INT) {
-        return function(v) {
-          gl.uniform1i(location, v);
-        };
-      }
-      if (type === gl.INT_VEC2) {
-        return function(v) {
-          gl.uniform2iv(location, v);
-        };
-      }
-      if (type === gl.INT_VEC3) {
-        return function(v) {
-          gl.uniform3iv(location, v);
-        };
-      }
-      if (type === gl.INT_VEC4) {
-        return function(v) {
-          gl.uniform4iv(location, v);
-        };
-      }
-      if (type === gl.BOOL && isArray) {
-        return function(v) {
-          gl.uniform1iv(location, v);
-        };
-      }
-      if (type === gl.BOOL) {
-        return function(v) {
-          gl.uniform1i(location, v);
-        };
-      }
-      if (type === gl.BOOL_VEC2) {
-        return function(v) {
-          gl.uniform2iv(location, v);
-        };
-      }
-      if (type === gl.BOOL_VEC3) {
-        return function(v) {
-          gl.uniform3iv(location, v);
-        };
-      }
-      if (type === gl.BOOL_VEC4) {
-        return function(v) {
-          gl.uniform4iv(location, v);
-        };
-      }
-      if (type === gl.FLOAT_MAT2) {
-        return function(v) {
-          gl.uniformMatrix2fv(location, false, v);
-        };
-      }
-      if (type === gl.FLOAT_MAT3) {
-        return function(v) {
-          gl.uniformMatrix3fv(location, false, v);
-        };
-      }
-      if (type === gl.FLOAT_MAT4) {
-        return function(v) {
-          gl.uniformMatrix4fv(location, false, v);
-        };
-      }
-      if ((type === gl.SAMPLER_2D || type === gl.SAMPLER_CUBE) && isArray) {
-        var units = [];
-        for (var ii = 0; ii < uniformInfo.size; ++ii) {
-          units.push(textureUnit++);
-        }
-        return function(bindPoint, units) {
-          return function(textures) {
-            gl.uniform1iv(location, units);
-            textures.forEach(function(texture, index) {
-              gl.activeTexture(gl.TEXTURE0 + units[index]);
-              gl.bindTexture(bindPoint, texture);
-            });
-          };
-        }(getBindPointForSamplerType(gl, type), units);
-      }
-      if (type === gl.SAMPLER_2D || type === gl.SAMPLER_CUBE) {
-        return function(bindPoint, unit) {
-          return function(texture) {
-            gl.uniform1i(location, unit);
-            gl.activeTexture(gl.TEXTURE0 + unit);
-            gl.bindTexture(bindPoint, texture);
-          };
-        }(getBindPointForSamplerType(gl, type), textureUnit++);
-      }
-      throw ("unknown type: 0x" + type.toString(16)); // we should never get here.
-    }
-
-    var uniformSetters = { };
-    var numUniforms = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS);
-
-    for (var ii = 0; ii < numUniforms; ++ii) {
-      var uniformInfo = gl.getActiveUniform(program, ii);
-      if (!uniformInfo) {
-        break;
-      }
-      var name = uniformInfo.name;
-      // remove the array suffix.
-      if (name.substr(-3) === "[0]") {
-        name = name.substr(0, name.length - 3);
-      }
-      var setter = createUniformSetter(program, uniformInfo);
-      uniformSetters[name] = setter;
-    }
-    return uniformSetters;
-  }
-
-  /**
-   * Set uniforms and binds related textures.
-   *
-   * example:
-   *
-   *     var programInfo = createProgramInfo(
-   *         gl, ["some-vs", "some-fs");
-   *
-   *     var tex1 = gl.createTexture();
-   *     var tex2 = gl.createTexture();
-   *
-   *     ... assume we setup the textures with data ...
-   *
-   *     var uniforms = {
-   *       u_someSampler: tex1,
-   *       u_someOtherSampler: tex2,
-   *       u_someColor: [1,0,0,1],
-   *       u_somePosition: [0,1,1],
-   *       u_someMatrix: [
-   *         1,0,0,0,
-   *         0,1,0,0,
-   *         0,0,1,0,
-   *         0,0,0,0,
-   *       ],
-   *     };
-   *
-   *     gl.useProgram(program);
-   *
-   * This will automatically bind the textures AND set the
-   * uniforms.
-   *
-   *     setUniforms(programInfo, uniforms);
-   *
-   * For the example above it is equivalent to
-   *
-   *     var texUnit = 0;
-   *     gl.activeTexture(gl.TEXTURE0 + texUnit);
-   *     gl.bindTexture(gl.TEXTURE_2D, tex1);
-   *     gl.uniform1i(u_someSamplerLocation, texUnit++);
-   *     gl.activeTexture(gl.TEXTURE0 + texUnit);
-   *     gl.bindTexture(gl.TEXTURE_2D, tex2);
-   *     gl.uniform1i(u_someSamplerLocation, texUnit++);
-   *     gl.uniform4fv(u_someColorLocation, [1, 0, 0, 1]);
-   *     gl.uniform3fv(u_somePositionLocation, [0, 1, 1]);
-   *     gl.uniformMatrix4fv(u_someMatrix, false, [
-   *         1,0,0,0,
-   *         0,1,0,0,
-   *         0,0,1,0,
-   *         0,0,0,0,
-   *       ]);
-   *
-   * Note it is perfectly reasonable to call `setUniforms` multiple times. For example
-   *
-   *     var uniforms = {
-   *       u_someSampler: tex1,
-   *       u_someOtherSampler: tex2,
-   *     };
-   *
-   *     var moreUniforms {
-   *       u_someColor: [1,0,0,1],
-   *       u_somePosition: [0,1,1],
-   *       u_someMatrix: [
-   *         1,0,0,0,
-   *         0,1,0,0,
-   *         0,0,1,0,
-   *         0,0,0,0,
-   *       ],
-   *     };
-   *
-   *     setUniforms(programInfo, uniforms);
-   *     setUniforms(programInfo, moreUniforms);
-   *
-   * @param {(module:twgl.ProgramInfo|Object.<string, function>)} setters a `ProgramInfo` as returned from `createProgramInfo` or the setters returned from
-   *        `createUniformSetters`.
-   * @param {Object.<string, ?>} values an object with values for the
-   *        uniforms.
-   *   You can pass multiple objects by putting them in an array or by calling with more arguments.For example
-   *
-   *     var sharedUniforms = {
-   *       u_fogNear: 10,
-   *       u_projection: ...
-   *       ...
-   *     };
-   *
-   *     var localUniforms = {
-   *       u_world: ...
-   *       u_diffuseColor: ...
-   *     };
-   *
-   *     twgl.setUniforms(programInfo, sharedUniforms, localUniforms);
-   *
-   *     // is the same as
-   *
-   *     twgl.setUniforms(programInfo, [sharedUniforms, localUniforms]);
-   *
-   *     // is the same as
-   *
-   *     twgl.setUniforms(programInfo, sharedUniforms);
-   *     twgl.setUniforms(programInfo, localUniforms};
-   *
-   * @memberOf module:twgl
-   */
-  function setUniforms(setters, values) {  // eslint-disable-line
-    setters = setters.uniformSetters || setters;
-    var numArgs = arguments.length;
-    for (var andx = 1; andx < numArgs; ++andx) {
-      var vals = arguments[andx];
-      if (Array.isArray(vals)) {
-        var numValues = vals.length;
-        for (var ii = 0; ii < numValues; ++ii) {
-          setUniforms(setters, vals[ii]);
-        }
-      } else {
-        for (var name in vals) {
-          var setter = setters[name];
-          if (setter) {
-            setter(vals[name]);
-          }
-        }
-      }
-    }
-  }
-
-  /**
-   * Creates setter functions for all attributes of a shader
-   * program. You can pass this to {@link module:twgl.setBuffersAndAttributes} to set all your buffers and attributes.
-   *
-   * @see {@link module:twgl.setAttributes} for example
-   * @param {WebGLProgram} program the program to create setters for.
-   * @return {Object.<string, function>} an object with a setter for each attribute by name.
-   * @memberOf module:twgl
-   */
-  function createAttributeSetters(gl, program) {
-    var attribSetters = {
-    };
-
-    function createAttribSetter(index) {
-      return function(b) {
-          gl.bindBuffer(gl.ARRAY_BUFFER, b.buffer);
-          gl.enableVertexAttribArray(index);
-          gl.vertexAttribPointer(
-              index, b.numComponents || b.size, b.type || gl.FLOAT, b.normalize || false, b.stride || 0, b.offset || 0);
-        };
-    }
-
-    var numAttribs = gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES);
-    for (var ii = 0; ii < numAttribs; ++ii) {
-      var attribInfo = gl.getActiveAttrib(program, ii);
-      if (!attribInfo) {
-        break;
-      }
-      var index = gl.getAttribLocation(program, attribInfo.name);
-      attribSetters[attribInfo.name] = createAttribSetter(index);
-    }
-
-    return attribSetters;
-  }
-
-  /**
-   * Sets attributes and binds buffers (deprecated... use {@link module:twgl.setBuffersAndAttributes})
-   *
-   * Example:
-   *
-   *     var program = createProgramFromScripts(
-   *         gl, ["some-vs", "some-fs");
-   *
-   *     var attribSetters = createAttributeSetters(program);
-   *
-   *     var positionBuffer = gl.createBuffer();
-   *     var texcoordBuffer = gl.createBuffer();
-   *
-   *     var attribs = {
-   *       a_position: {buffer: positionBuffer, numComponents: 3},
-   *       a_texcoord: {buffer: texcoordBuffer, numComponents: 2},
-   *     };
-   *
-   *     gl.useProgram(program);
-   *
-   * This will automatically bind the buffers AND set the
-   * attributes.
-   *
-   *     setAttributes(attribSetters, attribs);
-   *
-   * Properties of attribs. For each attrib you can add
-   * properties:
-   *
-   * *   type: the type of data in the buffer. Default = gl.FLOAT
-   * *   normalize: whether or not to normalize the data. Default = false
-   * *   stride: the stride. Default = 0
-   * *   offset: offset into the buffer. Default = 0
-   *
-   * For example if you had 3 value float positions, 2 value
-   * float texcoord and 4 value uint8 colors you'd setup your
-   * attribs like this
-   *
-   *     var attribs = {
-   *       a_position: {buffer: positionBuffer, numComponents: 3},
-   *       a_texcoord: {buffer: texcoordBuffer, numComponents: 2},
-   *       a_color: {
-   *         buffer: colorBuffer,
-   *         numComponents: 4,
-   *         type: gl.UNSIGNED_BYTE,
-   *         normalize: true,
-   *       },
-   *     };
-   *
-   * @param {Object.<string, function>} setters Attribute setters as returned from createAttributeSetters
-   * @param {Object.<string, module:twgl.AttribInfo>} buffers AttribInfos mapped by attribute name.
-   * @memberOf module:twgl
-   * @deprecated use {@link module:twgl.setBuffersAndAttributes}
-   */
-  function setAttributes(setters, buffers) {
-    for (var name in buffers) {
-      var setter = setters[name];
-      if (setter) {
-        setter(buffers[name]);
-      }
-    }
-  }
-
-  /**
-   * Sets attributes and buffers including the `ELEMENT_ARRAY_BUFFER` if appropriate
-   *
-   * Example:
-   *
-   *     var programInfo = createProgramInfo(
-   *         gl, ["some-vs", "some-fs");
-   *
-   *     var arrays = {
-   *       position: { numComponents: 3, data: [0, 0, 0, 10, 0, 0, 0, 10, 0, 10, 10, 0], },
-   *       texcoord: { numComponents: 2, data: [0, 0, 0, 1, 1, 0, 1, 1],                 },
-   *     };
-   *
-   *     var bufferInfo = createBufferInfoFromArrays(gl, arrays);
-   *
-   *     gl.useProgram(programInfo.program);
-   *
-   * This will automatically bind the buffers AND set the
-   * attributes.
-   *
-   *     setBuffersAndAttributes(gl, programInfo, bufferInfo);
-   *
-   * For the example above it is equivilent to
-   *
-   *     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
-   *     gl.enableVertexAttribArray(a_positionLocation);
-   *     gl.vertexAttribPointer(a_positionLocation, 3, gl.FLOAT, false, 0, 0);
-   *     gl.bindBuffer(gl.ARRAY_BUFFER, texcoordBuffer);
-   *     gl.enableVertexAttribArray(a_texcoordLocation);
-   *     gl.vertexAttribPointer(a_texcoordLocation, 4, gl.FLOAT, false, 0, 0);
-   *
-   * @param {WebGLRenderingContext} gl A WebGLRenderingContext.
-   * @param {(module:twgl.ProgramInfo|Object.<string, function>)} setters A `ProgramInfo` as returned from `createProgrmaInfo` Attribute setters as returned from `createAttributeSetters`
-   * @param {module:twgl.BufferInfo} buffers a BufferInfo as returned from `createBufferInfoFromArrays`.
-   * @memberOf module:twgl
-   */
-  function setBuffersAndAttributes(gl, programInfo, buffers) {
-    setAttributes(programInfo.attribSetters || programInfo, buffers.attribs);
-    if (buffers.indices) {
-      gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, buffers.indices);
-    }
-  }
-
-  /**
-   * @typedef {Object} ProgramInfo
-   * @property {WebGLProgram} program A shader program
-   * @property {Object<string, function>} uniformSetters object of setters as returned from createUniformSetters,
-   * @property {Object<string, function>} attribSetters object of setters as returned from createAttribSetters,
-   * @memberOf module:twgl
-   */
-
-  /**
-   * Creates a ProgramInfo from an existing program.
-   *
-   * A ProgramInfo contains
-   *
-   *     programInfo = {
-   *        program: WebGLProgram,
-   *        uniformSetters: object of setters as returned from createUniformSetters,
-   *        attribSetters: object of setters as returned from createAttribSetters,
-   *     }
-   *
-   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
-   *        to use.
-   * @param {WebGLProgram} program an existing WebGLProgram.
-   * @return {module:twgl.ProgramInfo} The created ProgramInfo.
-   * @memberOf module:twgl
-   */
-  function createProgramInfoFromProgram(gl, program) {
-    var uniformSetters = createUniformSetters(gl, program);
-    var attribSetters = createAttributeSetters(gl, program);
-    return {
-      program: program,
-      uniformSetters: uniformSetters,
-      attribSetters: attribSetters,
-    };
-  }
-
-  /**
-   * Creates a ProgramInfo from 2 sources.
-   *
-   * A ProgramInfo contains
-   *
-   *     programInfo = {
-   *        program: WebGLProgram,
-   *        uniformSetters: object of setters as returned from createUniformSetters,
-   *        attribSetters: object of setters as returned from createAttribSetters,
-   *     }
-   *
-   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
-   *        to use.
-   * @param {string[]} shaderSourcess Array of sources for the
-   *        shaders or ids. The first is assumed to be the vertex shader,
-   *        the second the fragment shader.
-   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
-   * @param {number[]} [opt_locations] The locations for the. A parallel array to opt_attribs letting you assign locations.
-   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors. By default it just prints an error to the console
-   *        on error. If you want something else pass an callback. It's passed an error message.
-   * @return {module:twgl.ProgramInfo?} The created ProgramInfo.
-   * @memberOf module:twgl
-   */
-  function createProgramInfo(
-      gl, shaderSources, opt_attribs, opt_locations, opt_errorCallback) {
-    shaderSources = shaderSources.map(function(source) {
-      var script = document.getElementById(source);
-      return script ? script.text : source;
-    });
-    var program = createProgramFromSources(gl, shaderSources, opt_attribs, opt_locations, opt_errorCallback);
-    if (!program) {
-      return null;
-    }
-    return createProgramInfoFromProgram(gl, program);
-  }
-
-  /**
-   * Resize a canvas to match the size it's displayed.
-   * @param {HTMLCanvasElement} canvas The canvas to resize.
-   * @param {number} [a] multiplier. So you can pass in `window.devicePixelRatio` if you want to.
-   * @return {boolean} true if the canvas was resized.
-   * @memberOf module:twgl
-   */
-  function resizeCanvasToDisplaySize(canvas, multiplier) {
-    multiplier = multiplier || 1;
-    multiplier = Math.max(1, multiplier);
-    var width  = canvas.clientWidth  * multiplier | 0;
-    var height = canvas.clientHeight * multiplier | 0;
-    if (canvas.width !== width ||
-        canvas.height !== height) {
-      canvas.width = width;
-      canvas.height = height;
-      return true;
-    }
-    return false;
+    utils.copyExistingProperties(newDefaults, defaults);
   }
 
   function setBufferFromTypedArray(gl, type, buffer, array, drawType) {
@@ -1479,7 +824,7 @@ define('twgl/twgl',[], function () {
    * @param {number} [type] the GL bind type for the buffer. Default = `gl.ARRAY_BUFFER`.
    * @param {number} [drawType] the GL draw type for the buffer. Default = 'gl.STATIC_DRAW`.
    * @return {WebGLBuffer} the created WebGLBuffer
-   * @memberOf module:twgl
+   * @memberOf module:twgl/attributes
    */
   function createBufferFromTypedArray(gl, typedArray, type, drawType) {
     if (typedArray instanceof WebGLBuffer) {
@@ -1495,44 +840,6 @@ define('twgl/twgl',[], function () {
     return name === "indices";
   }
 
-  /**
-   * Get the GL type for a typedArray
-   * @param {ArrayBuffer|ArrayBufferView} typedArray a typedArray
-   * @return {number} the GL type for array. For example pass in an `Int8Array` and `gl.BYTE` will
-   *   be returned. Pass in a `Uint32Array` and `gl.UNSIGNED_INT` will be returned
-   * @memberOf module:twgl
-   */
-  function getGLTypeForTypedArray(typedArray) {
-    if (typedArray instanceof Int8Array)    { return BYTE; }           // eslint-disable-line
-    if (typedArray instanceof Uint8Array)   { return UNSIGNED_BYTE; }  // eslint-disable-line
-    if (typedArray instanceof Int16Array)   { return SHORT; }          // eslint-disable-line
-    if (typedArray instanceof Uint16Array)  { return UNSIGNED_SHORT; } // eslint-disable-line
-    if (typedArray instanceof Int32Array)   { return INT; }            // eslint-disable-line
-    if (typedArray instanceof Uint32Array)  { return UNSIGNED_INT; }   // eslint-disable-line
-    if (typedArray instanceof Float32Array) { return FLOAT; }          // eslint-disable-line
-    throw "unsupported typed array type";
-  }
-
-  /**
-   * Get the typed array constructor for a given GL type
-   * @param {number} type the GL type. (eg: `gl.UNSIGNED_INT`)
-   * @return {function} the constructor for a the corresponding typed array. (eg. `Uint32Array`).
-   * @memberOf module:twgl
-   */
-  function getTypedArrayTypeForGLType(type) {
-    switch (type) {
-      case BYTE:           return Int8Array;     // eslint-disable-line
-      case UNSIGNED_BYTE:  return Uint8Array;    // eslint-disable-line
-      case SHORT:          return Int16Array;    // eslint-disable-line
-      case UNSIGNED_SHORT: return Uint16Array;   // eslint-disable-line
-      case INT:            return Int32Array;    // eslint-disable-line
-      case UNSIGNED_INT:   return Uint32Array;   // eslint-disable-line
-      case FLOAT:          return Float32Array;  // eslint-disable-line
-      default:
-        throw "unknown gl type";
-    }
-  }
-
   // This is really just a guess. Though I can't really imagine using
   // anything else? Maybe for some compression?
   function getNormalizationForTypedArray(typedArray) {
@@ -1541,8 +848,8 @@ define('twgl/twgl',[], function () {
     return false;
   }
 
-  function isArrayBuffer(a) {
-    return a && a.buffer && a.buffer instanceof ArrayBuffer;
+  function getArray(array) {
+    return array.length ? array : array.data;
   }
 
   function guessNumComponentsFromName(name, length) {
@@ -1562,12 +869,16 @@ define('twgl/twgl',[], function () {
     return numComponents;
   }
 
+  function getNumComponents(array, arrayName) {
+    return array.numComponents || array.size || guessNumComponentsFromName(arrayName, getArray(array).length);
+  }
+
   function makeTypedArray(array, name) {
-    if (isArrayBuffer(array)) {
+    if (typedArrays.isArrayBuffer(array)) {
       return array;
     }
 
-    if (isArrayBuffer(array.data)) {
+    if (typedArrays.isArrayBuffer(array.data)) {
       return array.data;
     }
 
@@ -1730,7 +1041,7 @@ define('twgl/twgl',[], function () {
    * @param {WebGLRenderingContext} gl The webgl rendering context.
    * @param {module:twgl.Arrays} arrays The arrays
    * @return {Object.<string, module:twgl.AttribInfo>} the attribs
-   * @memberOf module:twgl
+   * @memberOf module:twgl/attributes
    */
   function createAttribsFromArrays(gl, arrays) {
     var attribs = {};
@@ -1741,8 +1052,8 @@ define('twgl/twgl',[], function () {
         var typedArray = makeTypedArray(array, arrayName);
         attribs[attribName] = {
           buffer:        createBufferFromTypedArray(gl, typedArray, undefined, array.drawType),
-          numComponents: array.numComponents || array.size || guessNumComponentsFromName(arrayName),
-          type:          getGLTypeForTypedArray(typedArray),
+          numComponents: getNumComponents(array, arrayName),
+          type:          typedArrays.getGLTypeForTypedArray(typedArray),
           normalize:     array.normalize !== undefined ? array.normalize : getNormalizationForTypedArray(typedArray),
           stride:        array.stride || 0,
           offset:        array.offset || 0,
@@ -1787,7 +1098,7 @@ define('twgl/twgl',[], function () {
    *        var someSubArray = new Float32Array(someArray.buffer, offsetInBytes, sizeInUnits); // a view into someArray
    *
    *    Now you can pass `someSubArray` into setAttribInfoBufferFromArray`
-   * @memberOf module:twgl
+   * @memberOf module:twgl/attributes
    */
   function setAttribInfoBufferFromArray(gl, attribInfo, array, offset) {
     array = makeTypedArray(array);
@@ -1818,8 +1129,8 @@ define('twgl/twgl',[], function () {
         key = Object.keys(arrays)[0];
       }
       var array = arrays[key];
-      var length = array.length || array.data.length;
-      var numComponents = array.numComponents || guessNumComponentsFromName(key, length);
+      var length = getArray(array).length;
+      var numComponents = getNumComponents(array, key);
       var numElements = length / numComponents;
       if (length % numComponents > 0) {
         throw "numComponents " + numComponents + " not correct for length " + length;
@@ -1831,11 +1142,19 @@ define('twgl/twgl',[], function () {
   /**
    * @typedef {Object} BufferInfo
    * @property {number} numElements The number of elements to pass to `gl.drawArrays` or `gl.drawElements`.
+   * @property {number} [elementType] The type of indices `UNSIGNED_BYTE`, `UNSIGNED_SHORT` etc..
    * @property {WebGLBuffer} [indices] The indices `ELEMENT_ARRAY_BUFFER` if any indices exist.
-   * @property {Object.<string, module:twgl.AttribInfo>} attribs The attribs approriate to call `setAttributes`
+   * @property {Object.<string, module:twgl.AttribInfo>} [attribs] The attribs approriate to call `setAttributes`
    * @memberOf module:twgl
    */
 
+  /**
+   * @typedef {Object} VertexArrayInfo
+   * @property {number} numElements The number of elements to pass to `gl.drawArrays` or `gl.drawElements`.
+   * @property {number} [elementType] The type of indices `UNSIGNED_BYTE`, `UNSIGNED_SHORT` etc..
+   * @property {WebGLVertexArrayObject> [vertexArrayObject] a vertex array object
+   * @memberOf module:twgl
+   */
 
   /**
    * Creates a BufferInfo from an object of arrays.
@@ -1926,7 +1245,7 @@ define('twgl/twgl',[], function () {
    * @param {WebGLRenderingContext} gl A WebGLRenderingContext
    * @param {module:twgl.Arrays} arrays Your data
    * @return {module:twgl.BufferInfo} A BufferInfo
-   * @memberOf module:twgl
+   * @memberOf module:twgl/attributes
    */
   function createBufferInfoFromArrays(gl, arrays) {
     var bufferInfo = {
@@ -1937,7 +1256,7 @@ define('twgl/twgl',[], function () {
       indices = makeTypedArray(indices, "indices");
       bufferInfo.indices = createBufferFromTypedArray(gl, indices, gl.ELEMENT_ARRAY_BUFFER);
       bufferInfo.numElements = indices.length;
-      bufferInfo.elementType = (indices instanceof Uint32Array) ?  gl.UNSIGNED_INT : gl.UNSIGNED_SHORT;
+      bufferInfo.elementType = typedArrays.getGLTypeForTypedArray(indices);
     } else {
       bufferInfo.numElements = getNumElementsFromNonIndexedArrays(arrays);
     }
@@ -1965,11 +1284,11 @@ define('twgl/twgl',[], function () {
    *
    * returns a WebGLBuffer that constains the given data.
    *
-   * @param {WebGLRenderingContext) gl A WebGLRenderingContext.
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext.
    * @param {module:twgl.ArraySpec} array an array, typed array, or array spec.
    * @param {string} arrayName name of array. Used to guess the type if type can not be dervied other wise.
    * @return {WebGLBuffer} a WebGLBuffer containing the data in array.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/attributes
    */
   function createBufferFromArray(gl, array, arrayName) {
     var type = arrayName === "indices" ? gl.ELEMENT_ARRAY_BUFFER : gl.ARRAY_BUFFER;
@@ -1996,10 +1315,10 @@ define('twgl/twgl',[], function () {
    *
    * If the buffer is named 'indices' it will be made an ELEMENT_ARRAY_BUFFER.
    *
-   * @param {WebGLRenderingContext) gl A WebGLRenderingContext.
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext.
    * @param {module:twgl.Arrays} arrays
    * @return {Object<string, WebGLBuffer>} returns an object with one WebGLBuffer per array
-   * @memberOf module:twgl
+   * @memberOf module:twgl/attributes
    */
   function createBuffersFromArrays(gl, arrays) {
     var buffers = { };
@@ -2011,6 +1330,1439 @@ define('twgl/twgl',[], function () {
   }
 
   /**
+   * Creates a BufferInfo from an object of arrays.
+   *
+   * This can be passed to {@link module:twgl.setBuffersAndAttributes} and to
+   * {@link module:twgl:drawBufferInfo}.
+   *
+   * > **IMPORTANT:** Vertex Array Objects are **not** a direct analog for a BufferInfo. Vertex Array Objects
+   *   assign buffers to specific attributes at creation time. That means they can only be used with programs
+   *   who's attributes use the same attribute locations for the same purposes.
+   *
+   * > Bind your attribute locations by passing an array of attribute names to {@link module:twgl.createProgramInfo}
+   *   or use WebGL 2's GLSL ES 3's `layout(location = <num>)` to make sure locations match.
+   *
+   * also
+   *
+   * > **IMPORTANT:** After calling twgl.setBuffersAndAttribute with a BufferInfo that uses a Vertex Array Object
+   *   that Vertex Array Object will be bound. That means **ANY MANIPULATION OF ELEMENT_ARRAY_BUFFER or ATTRIBUTES**
+   *   will affect the Vertex Array Object state.
+   *
+   * > Call `gl.bindVertexArray(null)` to get back manipulating the global attributes and ELEMENT_ARRAY_BUFFER.
+   *
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext
+   * @param {module:twgl.ProgramInfo|module:twgl.ProgramInfo[]} programInfo a programInfo or array of programInfos
+   *
+   *    You need to make sure every attribute that will be used is bound. So for example assume shader 1
+   *    uses attributes A, B, C and shader 2 uses attributes A, B, D. If you only pass in the programInfo
+   *    for shader 1 then only attributes A, B, and C will have their attributes set because TWGL doesn't
+   *    now attribute D's location.
+   *
+   *    So, you can pass in both shader 1 and shader 2's programInfo
+   *
+   * @return {module:twgl.VertexArrayInfo} The created VertexArrayInfo
+   *
+   * @memberOf module:twgl/attributes
+   */
+  function createVertexArrayInfo(gl, programInfos, bufferInfo) {
+    var vao = gl.createVertexArray();
+    gl.bindVertexArray(vao);
+    if (!programInfos.length) {
+      programInfos = [programInfos];
+    }
+    programInfos.forEach(function(programInfo) {
+      twgl.setBuffersAndAttributes(gl, programInfo, bufferInfo);
+    });
+    gl.bindVertexArray(null);
+    return {
+      numElements: bufferInfo.numElements,
+      elementType: bufferInfo.elementType,
+      vertexArrayObject: vao,
+    };
+  }
+
+  // Using quotes prevents Uglify from changing the names.
+  // No speed diff AFAICT.
+  return {
+    "createAttribsFromArrays": createAttribsFromArrays,
+    "createBuffersFromArrays": createBuffersFromArrays,
+    "createBufferFromArray": createBufferFromArray,
+    "createBufferFromTypedArray": createBufferFromTypedArray,
+    "createBufferInfoFromArrays": createBufferInfoFromArrays,
+    "setAttribInfoBufferFromArray": setAttribInfoBufferFromArray,
+
+    "createVertexArrayInfo": createVertexArrayInfo,
+
+    "setAttributePrefix": setAttributePrefix,
+
+    "setDefaults_": setDefaults,
+    "getNumComponents_": getNumComponents,
+    "getArray_": getArray,
+  };
+
+});
+
+
+/*
+ * Copyright 2015, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of his
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+define('twgl/programs',[
+    './utils',
+  ], function(
+    utils) {
+  
+
+  /**
+   * Low level shader program related functions
+   *
+   * You should generally not need to use these functions. They are provided
+   * for those cases where you're doing something out of the ordinary
+   * and you need lower level access.
+   *
+   * For backward compatibily they are available at both `twgl.programs` and `twgl`
+   * itself
+   *
+   * See {@link module:twgl} for core functions
+   *
+   * @module twgl/programs
+   */
+
+  var error = utils.error;
+  var warn = utils.warn;
+
+  var FLOAT                         = 0x1406;
+  var FLOAT_VEC2                    = 0x8B50;
+  var FLOAT_VEC3                    = 0x8B51;
+  var FLOAT_VEC4                    = 0x8B52;
+  var INT                           = 0x1404;
+  var INT_VEC2                      = 0x8B53;
+  var INT_VEC3                      = 0x8B54;
+  var INT_VEC4                      = 0x8B55;
+  var BOOL                          = 0x8B56;
+  var BOOL_VEC2                     = 0x8B57;
+  var BOOL_VEC3                     = 0x8B58;
+  var BOOL_VEC4                     = 0x8B59;
+  var FLOAT_MAT2                    = 0x8B5A;
+  var FLOAT_MAT3                    = 0x8B5B;
+  var FLOAT_MAT4                    = 0x8B5C;
+  var SAMPLER_2D                    = 0x8B5E;
+  var SAMPLER_CUBE                  = 0x8B60;
+  var SAMPLER_3D                    = 0x8B5F;
+  var SAMPLER_2D_SHADOW             = 0x8B62;
+  var FLOAT_MAT2x3                  = 0x8B65;
+  var FLOAT_MAT2x4                  = 0x8B66;
+  var FLOAT_MAT3x2                  = 0x8B67;
+  var FLOAT_MAT3x4                  = 0x8B68;
+  var FLOAT_MAT4x2                  = 0x8B69;
+  var FLOAT_MAT4x3                  = 0x8B6A;
+  var SAMPLER_2D_ARRAY              = 0x8DC1;
+  var SAMPLER_2D_ARRAY_SHADOW       = 0x8DC4;
+  var SAMPLER_CUBE_SHADOW           = 0x8DC5;
+  var UNSIGNED_INT                  = 0x1405;
+  var UNSIGNED_INT_VEC2             = 0x8DC6;
+  var UNSIGNED_INT_VEC3             = 0x8DC7;
+  var UNSIGNED_INT_VEC4             = 0x8DC8;
+  var INT_SAMPLER_2D                = 0x8DCA;
+  var INT_SAMPLER_3D                = 0x8DCB;
+  var INT_SAMPLER_CUBE              = 0x8DCC;
+  var INT_SAMPLER_2D_ARRAY          = 0x8DCF;
+  var UNSIGNED_INT_SAMPLER_2D       = 0x8DD2;
+  var UNSIGNED_INT_SAMPLER_3D       = 0x8DD3;
+  var UNSIGNED_INT_SAMPLER_CUBE     = 0x8DD4;
+  var UNSIGNED_INT_SAMPLER_2D_ARRAY = 0x8DD7;
+
+  var TEXTURE_2D                    = 0x0DE1;
+  var TEXTURE_CUBE_MAP              = 0x8513;
+  var TEXTURE_3D                    = 0x806F;
+  var TEXTURE_2D_ARRAY              = 0x8C1A;
+
+  var typeMap = {};
+
+  /**
+   * Returns the corresponding bind point for a given sampler type
+   */
+  function getBindPointForSamplerType(gl, type) {
+    return typeMap[type].bindPoint;
+  }
+
+  // This kind of sucks! If you could compose functions as in `var fn = gl[name];`
+  // this code could be a lot smaller but that is sadly really slow (T_T)
+
+  function floatSetter(gl, location) {
+    return function(v) {
+      gl.uniform1f(location, v);
+    };
+  }
+
+  function floatArraySetter(gl, location) {
+    return function(v) {
+      gl.uniform1fv(location, v);
+    };
+  }
+
+  function floatVec2Setter(gl, location) {
+    return function(v) {
+      gl.uniform2fv(location, v);
+    };
+  }
+
+  function floatVec3Setter(gl, location) {
+    return function(v) {
+      gl.uniform3fv(location, v);
+    };
+  }
+
+  function floatVec4Setter(gl, location) {
+    return function(v) {
+      gl.uniform4fv(location, v);
+    };
+  }
+
+  function intSetter(gl, location) {
+    return function(v) {
+      gl.uniform1i(location, v);
+    };
+  }
+
+  function intArraySetter(gl, location) {
+    return function(v) {
+      gl.uniform1iv(location, v);
+    };
+  }
+
+  function intVec2Setter(gl, location) {
+    return function(v) {
+      gl.uniform2iv(location, v);
+    };
+  }
+
+  function intVec3Setter(gl, location) {
+    return function(v) {
+      gl.uniform3iv(location, v);
+    };
+  }
+
+  function intVec4Setter(gl, location) {
+    return function(v) {
+      gl.uniform4iv(location, v);
+    };
+  }
+
+  function uintSetter(gl, location) {
+    return function(v) {
+      gl.uniform1ui(location, v);
+    };
+  }
+
+  function uintArraySetter(gl, location) {
+    return function(v) {
+      gl.uniform1uiv(location, v);
+    };
+  }
+
+  function uintVec2Setter(gl, location) {
+    return function(v) {
+      gl.uniform2uiv(location, v);
+    };
+  }
+
+  function uintVec3Setter(gl, location) {
+    return function(v) {
+      gl.uniform3uiv(location, v);
+    };
+  }
+
+  function uintVec4Setter(gl, location) {
+    return function(v) {
+      gl.uniform4uiv(location, v);
+    };
+  }
+
+  function floatMat2Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix2fv(location, false, v);
+    };
+  }
+
+  function floatMat3Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix3fv(location, false, v);
+    };
+  }
+
+  function floatMat4Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix4fv(location, false, v);
+    };
+  }
+
+  function floatMat23Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix2x3fv(location, false, v);
+    };
+  }
+
+  function floatMat32Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix3x2fv(location, false, v);
+    };
+  }
+
+  function floatMat24Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix2x4fv(location, false, v);
+    };
+  }
+
+  function floatMat42Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix4x2fv(location, false, v);
+    };
+  }
+
+  function floatMat34Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix3x4fv(location, false, v);
+    };
+  }
+
+  function floatMat43Setter(gl, location) {
+    return function(v) {
+      gl.uniformMatrix4x3fv(location, false, v);
+    };
+  }
+
+  function samplerSetter(gl, type, unit, location) {
+    var bindPoint = getBindPointForSamplerType(gl, type);
+    return function(texture) {
+      gl.uniform1i(location, unit);
+      gl.activeTexture(gl.TEXTURE0 + unit);
+      gl.bindTexture(bindPoint, texture);
+    };
+  }
+
+  function samplerArraySetter(gl, type, unit, location, size) {
+    var bindPoint = getBindPointForSamplerType(gl, type);
+    var units = new Int32Array(size);
+    for (var ii = 0; ii < size; ++ii) {
+      units[ii] = unit + ii;
+    }
+
+    return function(textures) {
+      gl.uniform1iv(location, units);
+      textures.forEach(function(texture, index) {
+        gl.activeTexture(gl.TEXTURE0 + units[index]);
+        gl.bindTexture(bindPoint, texture);
+      });
+    };
+  }
+
+  typeMap[FLOAT]                         = { Type: Float32Array, size:  4, setter: floatSetter,      arraySetter: floatArraySetter, };
+  typeMap[FLOAT_VEC2]                    = { Type: Float32Array, size:  8, setter: floatVec2Setter,  };
+  typeMap[FLOAT_VEC3]                    = { Type: Float32Array, size: 12, setter: floatVec3Setter,  };
+  typeMap[FLOAT_VEC4]                    = { Type: Float32Array, size: 16, setter: floatVec4Setter,  };
+  typeMap[INT]                           = { Type: Int32Array,   size:  4, setter: intSetter,        arraySetter: intArraySetter, };
+  typeMap[INT_VEC2]                      = { Type: Int32Array,   size:  8, setter: intVec2Setter,    };
+  typeMap[INT_VEC3]                      = { Type: Int32Array,   size: 12, setter: intVec3Setter,    };
+  typeMap[INT_VEC4]                      = { Type: Int32Array,   size: 16, setter: intVec4Setter,    };
+  typeMap[UNSIGNED_INT]                  = { Type: Uint32Array,  size:  4, setter: uintSetter,       arraySetter: uintArraySetter, };
+  typeMap[UNSIGNED_INT_VEC2]             = { Type: Uint32Array,  size:  8, setter: uintVec2Setter,   };
+  typeMap[UNSIGNED_INT_VEC3]             = { Type: Uint32Array,  size: 12, setter: uintVec3Setter,   };
+  typeMap[UNSIGNED_INT_VEC4]             = { Type: Uint32Array,  size: 16, setter: uintVec4Setter,   };
+  typeMap[BOOL]                          = { Type: Uint32Array,  size:  4, setter: intSetter,        arraySetter: intArraySetter, };
+  typeMap[BOOL_VEC2]                     = { Type: Uint32Array,  size:  8, setter: intVec2Setter,    };
+  typeMap[BOOL_VEC3]                     = { Type: Uint32Array,  size: 12, setter: intVec3Setter,    };
+  typeMap[BOOL_VEC4]                     = { Type: Uint32Array,  size: 16, setter: intVec4Setter,    };
+  typeMap[FLOAT_MAT2]                    = { Type: Float32Array, size: 16, setter: floatMat2Setter,  };
+  typeMap[FLOAT_MAT3]                    = { Type: Float32Array, size: 36, setter: floatMat3Setter,  };
+  typeMap[FLOAT_MAT4]                    = { Type: Float32Array, size: 64, setter: floatMat4Setter,  };
+  typeMap[FLOAT_MAT2x3]                  = { Type: Float32Array, size: 24, setter: floatMat23Setter, };
+  typeMap[FLOAT_MAT2x4]                  = { Type: Float32Array, size: 32, setter: floatMat24Setter, };
+  typeMap[FLOAT_MAT3x2]                  = { Type: Float32Array, size: 24, setter: floatMat32Setter, };
+  typeMap[FLOAT_MAT3x4]                  = { Type: Float32Array, size: 48, setter: floatMat34Setter, };
+  typeMap[FLOAT_MAT4x2]                  = { Type: Float32Array, size: 32, setter: floatMat42Setter, };
+  typeMap[FLOAT_MAT4x3]                  = { Type: Float32Array, size: 48, setter: floatMat43Setter, };
+  typeMap[SAMPLER_2D]                    = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D,       };
+  typeMap[SAMPLER_CUBE]                  = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_CUBE_MAP, };
+  typeMap[SAMPLER_3D]                    = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_3D,       };
+  typeMap[SAMPLER_2D_SHADOW]             = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D,       };
+  typeMap[SAMPLER_2D_ARRAY]              = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D_ARRAY, };
+  typeMap[SAMPLER_2D_ARRAY_SHADOW]       = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D_ARRAY, };
+  typeMap[SAMPLER_CUBE_SHADOW]           = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_CUBE_MAP, };
+  typeMap[INT_SAMPLER_2D]                = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D,       };
+  typeMap[INT_SAMPLER_3D]                = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_3D,       };
+  typeMap[INT_SAMPLER_CUBE]              = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_CUBE_MAP, };
+  typeMap[INT_SAMPLER_2D_ARRAY]          = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D_ARRAY, };
+  typeMap[UNSIGNED_INT_SAMPLER_2D]       = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D,       };
+  typeMap[UNSIGNED_INT_SAMPLER_3D]       = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_3D,       };
+  typeMap[UNSIGNED_INT_SAMPLER_CUBE]     = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_CUBE_MAP, };
+  typeMap[UNSIGNED_INT_SAMPLER_2D_ARRAY] = { Type: null,         size:  0, setter: samplerSetter,    arraySetter: samplerArraySetter, bindPoint: TEXTURE_2D_ARRAY, };
+
+  // make sure we don't see a global gl
+  var gl = undefined;  // eslint-disable-line
+
+  /**
+   * Error Callback
+   * @callback ErrorCallback
+   * @param {string} msg error message.
+   * @param {number} [lineOffset] amount to add to line number
+   * @memberOf module:twgl
+   */
+
+  function addLineNumbers(src, lineOffset) {
+    lineOffset = lineOffset || 0;
+    ++lineOffset;
+
+    return src.split("\n").map(function(line, ndx) {
+      return (ndx + lineOffset) + ": " + line;
+    }).join("\n");
+  }
+
+  var spaceRE = /^[ \t]*\n/;
+
+  /**
+   * Loads a shader.
+   * @param {WebGLRenderingContext} gl The WebGLRenderingContext to use.
+   * @param {string} shaderSource The shader source.
+   * @param {number} shaderType The type of shader.
+   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors.
+   * @return {WebGLShader} The created shader.
+   */
+  function loadShader(gl, shaderSource, shaderType, opt_errorCallback) {
+    var errFn = opt_errorCallback || error;
+    // Create the shader object
+    var shader = gl.createShader(shaderType);
+
+    // Remove the first end of line because WebGL 2.0 notrequirebecasebrowserifymessesups
+    // #version 300 es
+    // as the first line. No whitespace allowed before that line
+    // so
+    //
+    // <script>
+    // #version 300 es
+    // </script>
+    //
+    // Has one line before it which is invalid according to GLSL ES 3.00
+    //
+    var lineOffset = 0;
+    if (spaceRE.test(shaderSource)) {
+      lineOffset = 1;
+      shaderSource = shaderSource.replace(spaceRE, '');
+    }
+
+    // Load the shader source
+    gl.shaderSource(shader, shaderSource);
+
+    // Compile the shader
+    gl.compileShader(shader);
+
+    // Check the compile status
+    var compiled = gl.getShaderParameter(shader, gl.COMPILE_STATUS);
+    if (!compiled) {
+      // Something went wrong during compilation; get the error
+      var lastError = gl.getShaderInfoLog(shader);
+      errFn(addLineNumbers(shaderSource, lineOffset) + "\n*** Error compiling shader: " + lastError);
+      gl.deleteShader(shader);
+      return null;
+    }
+
+    return shader;
+  }
+
+  /**
+   * Creates a program, attaches shaders, binds attrib locations, links the
+   * program and calls useProgram.
+   *
+   * NOTE: There are 3 signatures for this function
+   *
+   *     twgl.createProgram(gl, [vs, fs], opt_errFunc);
+   *     twgl.createProgram(gl, [vs, fs], opt_attribs, opt_errFunc);
+   *     twgl.createProgram(gl, [vs, fs], opt_attribs, opt_locations, opt_errFunc);
+   *
+   * @param {WebGLShader[]} shaders The shaders to attach
+   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
+   * @param {number[]} [opt_locations] The locations for the. A parallel array to opt_attribs letting you assign locations.
+   * @param {module:twgl.ErrorCallback} [opt_errorCallback] callback for errors. By default it just prints an error to the console
+   *        on error. If you want something else pass an callback. It's passed an error message.
+   * @return {WebGLProgram?} the created program or null if error.
+   * @memberOf module:twgl/programs
+   */
+  function createProgram(
+      gl, shaders, opt_attribs, opt_locations, opt_errorCallback) {
+    if (typeof opt_locations === 'function') {
+      opt_errorCallback = opt_locations;
+      opt_locations = undefined;
+    }
+    if (typeof opt_attribs === 'function') {
+      opt_errorCallback = opt_attribs;
+      opt_attribs = undefined;
+    }
+    var errFn = opt_errorCallback || error;
+    var program = gl.createProgram();
+    shaders.forEach(function(shader) {
+      gl.attachShader(program, shader);
+    });
+    if (opt_attribs) {
+      opt_attribs.forEach(function(attrib,  ndx) {
+        gl.bindAttribLocation(
+            program,
+            opt_locations ? opt_locations[ndx] : ndx,
+            attrib);
+      });
+    }
+    gl.linkProgram(program);
+
+    // Check the link status
+    var linked = gl.getProgramParameter(program, gl.LINK_STATUS);
+    if (!linked) {
+        // something went wrong with the link
+        var lastError = gl.getProgramInfoLog(program);
+        errFn("Error in program linking:" + lastError);
+
+        gl.deleteProgram(program);
+        return null;
+    }
+    return program;
+  }
+
+  /**
+   * Loads a shader from a script tag.
+   * @param {WebGLRenderingContext} gl The WebGLRenderingContext to use.
+   * @param {string} scriptId The id of the script tag.
+   * @param {number} [opt_shaderType] The type of shader. If not passed in it will
+   *     be derived from the type of the script tag.
+   * @param {module:twgl.ErrorCallback} [opt_errorCallback] callback for errors.
+   * @return {WebGLShader?} The created shader or null if error.
+   */
+  function createShaderFromScript(
+      gl, scriptId, opt_shaderType, opt_errorCallback) {
+    var shaderSource = "";
+    var shaderType;
+    var shaderScript = document.getElementById(scriptId);
+    if (!shaderScript) {
+      throw "*** Error: unknown script element" + scriptId;
+    }
+    shaderSource = shaderScript.text;
+
+    if (!opt_shaderType) {
+      if (shaderScript.type === "x-shader/x-vertex") {
+        shaderType = gl.VERTEX_SHADER;
+      } else if (shaderScript.type === "x-shader/x-fragment") {
+        shaderType = gl.FRAGMENT_SHADER;
+      } else if (shaderType !== gl.VERTEX_SHADER && shaderType !== gl.FRAGMENT_SHADER) {
+        throw "*** Error: unknown shader type";
+      }
+    }
+
+    return loadShader(
+        gl, shaderSource, opt_shaderType ? opt_shaderType : shaderType,
+        opt_errorCallback);
+  }
+
+  var defaultShaderType = [
+    "VERTEX_SHADER",
+    "FRAGMENT_SHADER",
+  ];
+
+  /**
+   * Creates a program from 2 script tags.
+   *
+   * NOTE: There are 3 signatures for this function
+   *
+   *     twgl.createProgramFromScripts(gl, [vs, fs], opt_errFunc);
+   *     twgl.createProgramFromScripts(gl, [vs, fs], opt_attribs, opt_errFunc);
+   *     twgl.createProgramFromScripts(gl, [vs, fs], opt_attribs, opt_locations, opt_errFunc);
+   *
+   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
+   *        to use.
+   * @param {string[]} shaderScriptIds Array of ids of the script
+   *        tags for the shaders. The first is assumed to be the
+   *        vertex shader, the second the fragment shader.
+   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
+   * @param {number[]} [opt_locations] The locations for the. A parallel array to opt_attribs letting you assign locations.
+   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors. By default it just prints an error to the console
+   *        on error. If you want something else pass an callback. It's passed an error message.
+   * @return {WebGLProgram} The created program.
+   * @memberOf module:twgl/programs
+   */
+  function createProgramFromScripts(
+      gl, shaderScriptIds, opt_attribs, opt_locations, opt_errorCallback) {
+    var shaders = [];
+    for (var ii = 0; ii < shaderScriptIds.length; ++ii) {
+      var shader = createShaderFromScript(
+          gl, shaderScriptIds[ii], gl[defaultShaderType[ii]], opt_errorCallback);
+      if (!shader) {
+        return null;
+      }
+      shaders.push(shader);
+    }
+    return createProgram(gl, shaders, opt_attribs, opt_locations, opt_errorCallback);
+  }
+
+  /**
+   * Creates a program from 2 sources.
+   *
+   * NOTE: There are 3 signatures for this function
+   *
+   *     twgl.createProgramFromSource(gl, [vs, fs], opt_errFunc);
+   *     twgl.createProgramFromSource(gl, [vs, fs], opt_attribs, opt_errFunc);
+   *     twgl.createProgramFromSource(gl, [vs, fs], opt_attribs, opt_locations, opt_errFunc);
+   *
+   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
+   *        to use.
+   * @param {string[]} shaderSourcess Array of sources for the
+   *        shaders. The first is assumed to be the vertex shader,
+   *        the second the fragment shader.
+   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
+   * @param {number[]} [opt_locations] The locations for the. A parallel array to opt_attribs letting you assign locations.
+   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors. By default it just prints an error to the console
+   *        on error. If you want something else pass an callback. It's passed an error message.
+   * @return {WebGLProgram} The created program.
+   * @memberOf module:twgl/programs
+   */
+  function createProgramFromSources(
+      gl, shaderSources, opt_attribs, opt_locations, opt_errorCallback) {
+    var shaders = [];
+    for (var ii = 0; ii < shaderSources.length; ++ii) {
+      var shader = loadShader(
+          gl, shaderSources[ii], gl[defaultShaderType[ii]], opt_errorCallback);
+      if (!shader) {
+        return null;
+      }
+      shaders.push(shader);
+    }
+    return createProgram(gl, shaders, opt_attribs, opt_locations, opt_errorCallback);
+  }
+
+  /**
+   * Creates setter functions for all uniforms of a shader
+   * program.
+   *
+   * @see {@link module:twgl.setUniforms}
+   *
+   * @param {WebGLProgram} program the program to create setters for.
+   * @returns {Object.<string, function>} an object with a setter by name for each uniform
+   * @memberOf module:twgl/programs
+   */
+  function createUniformSetters(gl, program) {
+    var textureUnit = 0;
+
+    /**
+     * Creates a setter for a uniform of the given program with it's
+     * location embedded in the setter.
+     * @param {WebGLProgram} program
+     * @param {WebGLUniformInfo} uniformInfo
+     * @returns {function} the created setter.
+     */
+    function createUniformSetter(program, uniformInfo) {
+      var location = gl.getUniformLocation(program, uniformInfo.name);
+      var isArray = (uniformInfo.size > 1 && uniformInfo.name.substr(-3) === "[0]");
+      var type = uniformInfo.type;
+      var typeInfo = typeMap[type];
+      if (!typeInfo) {
+        throw ("unknown type: 0x" + type.toString(16)); // we should never get here.
+      }
+      if (typeInfo.bindPoint) {
+        // it's a sampler
+        var unit = textureUnit;
+        textureUnit += uniformInfo.size;
+
+        if (isArray) {
+          return typeInfo.arraySetter(gl, type, unit, location, uniformInfo.size);
+        } else {
+          return typeInfo.setter(gl, type, unit, location, uniformInfo.size);
+        }
+      } else {
+        if (typeInfo.arraySetter && isArray) {
+          return typeInfo.arraySetter(gl, location);
+        } else {
+          return typeInfo.setter(gl, location);
+        }
+      }
+    }
+
+    var uniformSetters = { };
+    var numUniforms = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS);
+
+    for (var ii = 0; ii < numUniforms; ++ii) {
+      var uniformInfo = gl.getActiveUniform(program, ii);
+      if (!uniformInfo) {
+        break;
+      }
+      var name = uniformInfo.name;
+      // remove the array suffix.
+      if (name.substr(-3) === "[0]") {
+        name = name.substr(0, name.length - 3);
+      }
+      var setter = createUniformSetter(program, uniformInfo);
+      uniformSetters[name] = setter;
+    }
+    return uniformSetters;
+  }
+
+  /**
+   * @typedef {Object} UniformData
+   * @property {number} type The WebGL type enum for this uniform
+   * @property {number} size The number of elements for this uniform
+   * @property {number} blockNdx The block index this uniform appears in
+   * @property {number} offset The byte offset in the block for this uniform's value
+   * @memberOf module:twgl
+   */
+
+  /**
+   * The specification for one UniformBlockObject
+   *
+   * @typedef {Object} BlockSpec
+   * @property {number} index The index of the block.
+   * @property {number} size The size in bytes needed for the block
+   * @property {number[]} uniformIndices The indices of the uniforms used by the block. These indices
+   *    correspond to entries in a UniformData array in the {@link module:twgl.UniformBlockSpec}.
+   * @property {bool} usedByVertexShader Self explanitory
+   * @property {bool} usedByFragmentShader Self explanitory
+   * @property {bool} used Self explanitory
+   * @memberOf module:twgl
+   */
+
+  /**
+   * A `UniformBlockSpec` represents the data needed to create and bind
+   * UniformBlockObjects for a given program
+   *
+   * @typedef {Object} UniformBlockSpec
+   * @property {Object.<string, module:twgl.BlockSpec> blockSpecs The BlockSpec for each block by block name
+   * @property {UniformData[]} uniformData An array of data for each uniform by uniform index.
+   * @memberOf module:twgl
+   */
+
+  /**
+   * Creates a UniformBlockSpec for the given program.
+   *
+   * A UniformBlockSpec represents the data needed to create and bind
+   * UniformBlockObjects
+   *
+   * @param {WebGL2RenderingContext} gl A WebGL2 Rendering Context
+   * @param {WebGLProgram} program A WebGLProgram for a successfully linked program
+   * @return {module:twgl.UniformBlockSpec} The created UniformBlockSpec
+   * @memberOf module:twgl/programs
+   */
+  function createUniformBlockSpecFromProgram(gl, program) {
+    var numUniforms = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS);
+    var uniformData = [];
+    var uniformIndices = [];
+
+    for (var ii = 0; ii < numUniforms; ++ii) {
+      uniformIndices.push(ii);
+      uniformData.push({});
+      var uniformInfo = gl.getActiveUniform(program, ii);
+      if (!uniformInfo) {
+        break;
+      }
+      // REMOVE [0]?
+      uniformData[ii].name = uniformInfo.name;
+    }
+
+    [
+      [ "UNIFORM_TYPE", "type" ],
+      [ "UNIFORM_SIZE", "size" ],  // num elements
+      [ "UNIFORM_BLOCK_INDEX", "blockNdx" ],
+      [ "UNIFORM_OFFSET", "offset", ],
+    ].forEach(function(pair) {
+      var pname = pair[0];
+      var key = pair[1];
+      gl.getActiveUniforms(program, uniformIndices, gl[pname]).forEach(function(value, ndx) {
+        uniformData[ndx][key] = value;
+      });
+    });
+
+    var blockSpecs = {};
+
+    var numUniformBlocks = gl.getProgramParameter(program, gl.ACTIVE_UNIFORM_BLOCKS);
+    for (ii = 0; ii < numUniformBlocks; ++ii) {
+      var name = gl.getActiveUniformBlockName(program, ii);
+      var blockSpec = {
+        index: ii,
+        usedByVertexShader: gl.getActiveUniformBlockParameter(program, ii, gl.UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER),
+        usedByFragmentShader: gl.getActiveUniformBlockParameter(program, ii, gl.UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER),
+        size: gl.getActiveUniformBlockParameter(program, ii, gl.UNIFORM_BLOCK_DATA_SIZE),
+        uniformIndices: gl.getActiveUniformBlockParameter(program, ii, gl.UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES),
+      };
+      blockSpec.used = blockSpec.usedByVertexSahder || blockSpec.usedByFragmentShader;
+      blockSpecs[name] = blockSpec;
+    }
+
+    return {
+      blockSpecs: blockSpecs,
+      uniformData: uniformData,
+    };
+  }
+
+  var arraySuffixRE = /\[\d+\]\.$/;  // better way to check?
+
+  /**
+   * Represents a UniformBlockObject including an ArrayBuffer with all the uniform values
+   * and a corresponding WebGLBuffer to hold those values on the GPU
+   *
+   * @typedef {Object} UniformBlockInfo
+   * @property {string} name The name of the block
+   * @property {ArrayBuffer} array The array buffer that contains the uniform values
+   * @property {Float32Array} asFloat A float view on the array buffer. This is useful
+   *    inspecting the contents of the buffer in the debugger.
+   * @property {WebGLBuffer} buffer A WebGL buffer that will hold a copy of the uniform values for rendering.
+   * @property {Object.<string, ArrayBufferView>} uniforms A uniform name to ArrayBufferView map.
+   *   each Uniform has a correctly typed `ArrayBufferView` into array at the correct offset
+   *   and length of that uniform. So for example a float uniform would have a 1 float `Float32Array`
+   *   view. A single mat4 would have a 16 element `Float32Array` view. An ivec2 would have an
+   *   `Int32Array` view, etc.
+   * @memberOf module:twgl
+   */
+
+  /**
+   * Creates a `UniformBlockInfo` for the specified block
+   *
+   * Note: **If the blockName matches no existing blocks a warning is printed to the console and a dummy
+   * `UniformBlockInfo` is returned**. This is because when debugging GLSL
+   * it is common to comment out large portions of a shader or for example set
+   * the final output to a constant. When that happens blocks get optimized out.
+   * If this function did not create dummy blocks your code would crash when debugging.
+   *
+   * @param {WebGL2RenderingContext} gl A WebGL2RenderingContext
+   * @param {WebGLProgram} program A WebGLProgram
+   * @param {module:twgl.UniformBlockSpec} uinformBlockSpec. A UniformBlockSpec as returned
+   *     from {@link module:twgl.createUniformBlockSpecFromProgram}.
+   * @param {string} blockName The name of the block.
+   * @return {module:twgl.UniformBlockInfo} The created UniformBlockInfo
+   * @memberOf module:twgl/programs
+   */
+  function createUniformBlockInfoFromProgram(gl, program, uniformBlockSpec, blockName) {
+    var blockSpecs = uniformBlockSpec.blockSpecs;
+    var uniformData = uniformBlockSpec.uniformData;
+    var blockSpec = blockSpecs[blockName];
+    if (!blockSpec) {
+      warn("no uniform block object named:", blockName);
+      return {
+        name: blockName,
+        uniforms: {},
+      };
+    }
+    var array = new ArrayBuffer(blockSpec.size);
+    var buffer = gl.createBuffer();
+    var uniformBufferIndex = blockSpec.index;
+    gl.bindBuffer(gl.UNIFORM_BUFFER, buffer);
+    gl.uniformBlockBinding(program, blockSpec.index, uniformBufferIndex);
+
+    var prefix = blockName + ".";
+    if (arraySuffixRE.test(prefix)) {
+      prefix = prefix.replace(arraySuffixRE, ".");
+    }
+    var uniforms = {};
+    blockSpec.uniformIndices.forEach(function(uniformNdx) {
+      var data = uniformData[uniformNdx];
+      var typeInfo = typeMap[data.type];
+      var Type = typeInfo.Type;
+      var length = data.size * typeInfo.size;
+      var name = data.name;
+      if (name.substr(0, prefix.length) === prefix) {
+        name = name.substr(prefix.length);
+      }
+      uniforms[name] = new Type(array, data.offset, length / Type.BYTES_PER_ELEMENT);
+    });
+    return {
+      name: blockName,
+      array: array,
+      asFloat: new Float32Array(array),  // for debugging
+      buffer: buffer,
+      uniforms: uniforms,
+    };
+  }
+
+  /**
+   * Creates a `UniformBlockInfo` for the specified block
+   *
+   * Note: **If the blockName matches no existing blocks a warning is printed to the console and a dummy
+   * `UniformBlockInfo` is returned**. This is because when debugging GLSL
+   * it is common to comment out large portions of a shader or for example set
+   * the final output to a constant. When that happens blocks get optimized out.
+   * If this function did not create dummy blocks your code would crash when debugging.
+   *
+   * @param {WebGL2RenderingContext} gl A WebGL2RenderingContext
+   * @param {module:twgl.ProgramInfo} programInfo a `ProgramInfo`
+   *     as returned from {@link module:twgl.createProgramInfo}
+   * @param {string} blockName The name of the block.
+   * @return {module:twgl.UniformBlockInfo} The created UniformBlockInfo
+   * @memberOf module:twgl/programs
+   */
+  function createUniformBlockInfo(gl, programInfo, blockName) {
+    return createUniformBlockInfoFromProgram(gl, programInfo.program, programInfo.uniformBlockSpec, blockName);
+  }
+
+  /**
+   * Binds a unform block to the matching uniform block point.
+   * Matches by blocks by name so blocks must have the same name not just the same
+   * structure.
+   *
+   * If you have changed any values and you upload the valus into the corresponding WebGLBuffer
+   * call {@link module:twgl.setUniformBlock} instead.
+   *
+   * @param {WebGL2RenderingContext} gl A WebGL 2 rendering context.
+   * @param {(module:twgl.ProgramInfo|module:twgl.UniformBlockSpec)} programInfo a `ProgramInfo`
+   *     as returned from {@link module:twgl.createProgramInfo} or or `UniformBlockSpec` as
+   *     returned from {@link module:twgl.createUniformBlockSpecFromProgram}.
+   * @param {module:twgl.UniformBlockInfo} uniformBlockInfo a `UniformBlockInfo` as returned from
+   *     {@link module:twgl.createUniformBlockInfo}.
+   * @return {bool} true if buffer was bound. If the programInfo has no block with the same block name
+   *     no buffer is bound.
+   * @memberOf module:twgl/programs
+   */
+  function bindUniformBlock(gl, programInfo, uniformBlockInfo) {
+    var uniformBlockSpec = programInfo.uniformBlockSpec || programInfo;
+    var blockSpec = uniformBlockSpec.blockSpecs[uniformBlockInfo.name];
+    if (blockSpec) {
+      var bufferBindIndex = blockSpec.index;
+      gl.bindBufferRange(gl.UNIFORM_BUFFER, bufferBindIndex, uniformBlockInfo.buffer, 0, uniformBlockInfo.array.byteLength);
+      return true;
+    }
+    return false;
+  }
+
+  /**
+   * Uploads the current uniform values to the corresponding WebGLBuffer
+   * and binds that buffer to the program's corresponding bind point for the uniform block object.
+   *
+   * If you haven't changed any values and you only need to bind the uniform block object
+   * call {@link module:twgl.bindUniformBlock} instead.
+   *
+   * @param {WebGL2RenderingContext} gl A WebGL 2 rendering context.
+   * @param {(module:twgl.ProgramInfo|module:twgl.UniformBlockSpec)} programInfo a `ProgramInfo`
+   *     as returned from {@link module:twgl.createProgramInfo} or or `UniformBlockSpec` as
+   *     returned from {@link module:twgl.createUniformBlockSpecFromProgram}.
+   * @param {module:twgl.UniformBlockInfo} uniformBlockInfo a `UniformBlockInfo` as returned from
+   *     {@link module:twgl.createUniformBlockInfo}.
+   * @memberOf module:twgl/programs
+   */
+  function setUniformBlock(gl, programInfo, uniformBlockInfo) {
+    if (bindUniformBlock(gl, programInfo, uniformBlockInfo)) {
+      gl.bufferData(gl.UNIFORM_BUFFER, uniformBlockInfo.array, gl.DYNAMIC_DRAW);
+    }
+  }
+
+  /**
+   * Sets values of a uniform block object
+   *
+   * @param {module:twgl.UniformBlockInfo} uniformBlockInfo A UniformBlockInfo as returned by {@link module:twgl.createUniformBlockInfo}.
+   * @param {Object.<string, ?>} values A uniform name to value map where the value is correct for the given
+   *    type of uniform. So for example given a block like
+   *
+   *       uniform SomeBlock {
+   *         float someFloat;
+   *         vec2 someVec2;
+   *         vec3 someVec3Array[2];
+   *         int someInt;
+   *       }
+   *
+   *  You can set the values of the uniform block with
+   *
+   *       twgl.setBlockUniforms(someBlockInfo, {
+   *          someFloat: 12.3,
+   *          someVec2: [1, 2],
+   *          someVec3Array: [1, 2, 3, 4, 5, 6],
+   *          someInt: 5,
+   *       }
+   *
+   *  Arrays can be JavaScript arrays or typed arrays
+   *
+   *  Any name that doesn't match will be ignored
+   * @memberOf module:twgl/programs
+   */
+  function setBlockUniforms(uniformBlockInfo, values) {
+    var uniforms = uniformBlockInfo.uniforms;
+    for (var name in values) {
+      var array = uniforms[name];
+      if (array) {
+        var value = values[name];
+        if (value.length) {
+          array.set(value);
+        } else {
+          array[0] = value;
+        }
+      }
+    }
+  }
+
+  /**
+   * Set uniforms and binds related textures.
+   *
+   * example:
+   *
+   *     var programInfo = createProgramInfo(
+   *         gl, ["some-vs", "some-fs"]);
+   *
+   *     var tex1 = gl.createTexture();
+   *     var tex2 = gl.createTexture();
+   *
+   *     ... assume we setup the textures with data ...
+   *
+   *     var uniforms = {
+   *       u_someSampler: tex1,
+   *       u_someOtherSampler: tex2,
+   *       u_someColor: [1,0,0,1],
+   *       u_somePosition: [0,1,1],
+   *       u_someMatrix: [
+   *         1,0,0,0,
+   *         0,1,0,0,
+   *         0,0,1,0,
+   *         0,0,0,0,
+   *       ],
+   *     };
+   *
+   *     gl.useProgram(program);
+   *
+   * This will automatically bind the textures AND set the
+   * uniforms.
+   *
+   *     twgl.setUniforms(programInfo, uniforms);
+   *
+   * For the example above it is equivalent to
+   *
+   *     var texUnit = 0;
+   *     gl.activeTexture(gl.TEXTURE0 + texUnit);
+   *     gl.bindTexture(gl.TEXTURE_2D, tex1);
+   *     gl.uniform1i(u_someSamplerLocation, texUnit++);
+   *     gl.activeTexture(gl.TEXTURE0 + texUnit);
+   *     gl.bindTexture(gl.TEXTURE_2D, tex2);
+   *     gl.uniform1i(u_someSamplerLocation, texUnit++);
+   *     gl.uniform4fv(u_someColorLocation, [1, 0, 0, 1]);
+   *     gl.uniform3fv(u_somePositionLocation, [0, 1, 1]);
+   *     gl.uniformMatrix4fv(u_someMatrix, false, [
+   *         1,0,0,0,
+   *         0,1,0,0,
+   *         0,0,1,0,
+   *         0,0,0,0,
+   *       ]);
+   *
+   * Note it is perfectly reasonable to call `setUniforms` multiple times. For example
+   *
+   *     var uniforms = {
+   *       u_someSampler: tex1,
+   *       u_someOtherSampler: tex2,
+   *     };
+   *
+   *     var moreUniforms {
+   *       u_someColor: [1,0,0,1],
+   *       u_somePosition: [0,1,1],
+   *       u_someMatrix: [
+   *         1,0,0,0,
+   *         0,1,0,0,
+   *         0,0,1,0,
+   *         0,0,0,0,
+   *       ],
+   *     };
+   *
+   *     twgl.setUniforms(programInfo, uniforms);
+   *     twgl.setUniforms(programInfo, moreUniforms);
+   *
+   * @param {(module:twgl.ProgramInfo|Object.<string, function>)} setters a `ProgramInfo` as returned from `createProgramInfo` or the setters returned from
+   *        `createUniformSetters`.
+   * @param {Object.<string, ?>} values an object with values for the
+   *        uniforms.
+   *   You can pass multiple objects by putting them in an array or by calling with more arguments.For example
+   *
+   *     var sharedUniforms = {
+   *       u_fogNear: 10,
+   *       u_projection: ...
+   *       ...
+   *     };
+   *
+   *     var localUniforms = {
+   *       u_world: ...
+   *       u_diffuseColor: ...
+   *     };
+   *
+   *     twgl.setUniforms(programInfo, sharedUniforms, localUniforms);
+   *
+   *     // is the same as
+   *
+   *     twgl.setUniforms(programInfo, [sharedUniforms, localUniforms]);
+   *
+   *     // is the same as
+   *
+   *     twgl.setUniforms(programInfo, sharedUniforms);
+   *     twgl.setUniforms(programInfo, localUniforms};
+   *
+   * @memberOf module:twgl/programs
+   */
+  function setUniforms(setters, values) {  // eslint-disable-line
+    var actualSetters = setters.uniformSetters || setters;
+    var numArgs = arguments.length;
+    for (var andx = 1; andx < numArgs; ++andx) {
+      var vals = arguments[andx];
+      if (Array.isArray(vals)) {
+        var numValues = vals.length;
+        for (var ii = 0; ii < numValues; ++ii) {
+          setUniforms(actualSetters, vals[ii]);
+        }
+      } else {
+        for (var name in vals) {
+          var setter = actualSetters[name];
+          if (setter) {
+            setter(vals[name]);
+          }
+        }
+      }
+    }
+  }
+
+  /**
+   * Creates setter functions for all attributes of a shader
+   * program. You can pass this to {@link module:twgl.setBuffersAndAttributes} to set all your buffers and attributes.
+   *
+   * @see {@link module:twgl.setAttributes} for example
+   * @param {WebGLProgram} program the program to create setters for.
+   * @return {Object.<string, function>} an object with a setter for each attribute by name.
+   * @memberOf module:twgl/programs
+   */
+  function createAttributeSetters(gl, program) {
+    var attribSetters = {
+    };
+
+    function createAttribSetter(index) {
+      return function(b) {
+          gl.bindBuffer(gl.ARRAY_BUFFER, b.buffer);
+          gl.enableVertexAttribArray(index);
+          gl.vertexAttribPointer(
+              index, b.numComponents || b.size, b.type || gl.FLOAT, b.normalize || false, b.stride || 0, b.offset || 0);
+        };
+    }
+
+    var numAttribs = gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES);
+    for (var ii = 0; ii < numAttribs; ++ii) {
+      var attribInfo = gl.getActiveAttrib(program, ii);
+      if (!attribInfo) {
+        break;
+      }
+      var index = gl.getAttribLocation(program, attribInfo.name);
+      attribSetters[attribInfo.name] = createAttribSetter(index);
+    }
+
+    return attribSetters;
+  }
+
+  /**
+   * Sets attributes and binds buffers (deprecated... use {@link module:twgl.setBuffersAndAttributes})
+   *
+   * Example:
+   *
+   *     var program = createProgramFromScripts(
+   *         gl, ["some-vs", "some-fs");
+   *
+   *     var attribSetters = createAttributeSetters(program);
+   *
+   *     var positionBuffer = gl.createBuffer();
+   *     var texcoordBuffer = gl.createBuffer();
+   *
+   *     var attribs = {
+   *       a_position: {buffer: positionBuffer, numComponents: 3},
+   *       a_texcoord: {buffer: texcoordBuffer, numComponents: 2},
+   *     };
+   *
+   *     gl.useProgram(program);
+   *
+   * This will automatically bind the buffers AND set the
+   * attributes.
+   *
+   *     setAttributes(attribSetters, attribs);
+   *
+   * Properties of attribs. For each attrib you can add
+   * properties:
+   *
+   * *   type: the type of data in the buffer. Default = gl.FLOAT
+   * *   normalize: whether or not to normalize the data. Default = false
+   * *   stride: the stride. Default = 0
+   * *   offset: offset into the buffer. Default = 0
+   *
+   * For example if you had 3 value float positions, 2 value
+   * float texcoord and 4 value uint8 colors you'd setup your
+   * attribs like this
+   *
+   *     var attribs = {
+   *       a_position: {buffer: positionBuffer, numComponents: 3},
+   *       a_texcoord: {buffer: texcoordBuffer, numComponents: 2},
+   *       a_color: {
+   *         buffer: colorBuffer,
+   *         numComponents: 4,
+   *         type: gl.UNSIGNED_BYTE,
+   *         normalize: true,
+   *       },
+   *     };
+   *
+   * @param {Object.<string, function>} setters Attribute setters as returned from createAttributeSetters
+   * @param {Object.<string, module:twgl.AttribInfo>} buffers AttribInfos mapped by attribute name.
+   * @memberOf module:twgl/programs
+   * @deprecated use {@link module:twgl.setBuffersAndAttributes}
+   */
+  function setAttributes(setters, buffers) {
+    for (var name in buffers) {
+      var setter = setters[name];
+      if (setter) {
+        setter(buffers[name]);
+      }
+    }
+  }
+
+  /**
+   * Sets attributes and buffers including the `ELEMENT_ARRAY_BUFFER` if appropriate
+   *
+   * Example:
+   *
+   *     var programInfo = createProgramInfo(
+   *         gl, ["some-vs", "some-fs");
+   *
+   *     var arrays = {
+   *       position: { numComponents: 3, data: [0, 0, 0, 10, 0, 0, 0, 10, 0, 10, 10, 0], },
+   *       texcoord: { numComponents: 2, data: [0, 0, 0, 1, 1, 0, 1, 1],                 },
+   *     };
+   *
+   *     var bufferInfo = createBufferInfoFromArrays(gl, arrays);
+   *
+   *     gl.useProgram(programInfo.program);
+   *
+   * This will automatically bind the buffers AND set the
+   * attributes.
+   *
+   *     setBuffersAndAttributes(gl, programInfo, bufferInfo);
+   *
+   * For the example above it is equivilent to
+   *
+   *     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+   *     gl.enableVertexAttribArray(a_positionLocation);
+   *     gl.vertexAttribPointer(a_positionLocation, 3, gl.FLOAT, false, 0, 0);
+   *     gl.bindBuffer(gl.ARRAY_BUFFER, texcoordBuffer);
+   *     gl.enableVertexAttribArray(a_texcoordLocation);
+   *     gl.vertexAttribPointer(a_texcoordLocation, 4, gl.FLOAT, false, 0, 0);
+   *
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext.
+   * @param {(module:twgl.ProgramInfo|Object.<string, function>)} setters A `ProgramInfo` as returned from {@link module:twgl.createProgrmaInfo} or Attribute setters as returned from {@link module:twgl.createAttributeSetters}
+   * @param {(module:twgl.BufferInfo|module:twgl.vertexArrayInfo)} buffers a `BufferInfo` as returned from {@link module:twgl.createBufferInfoFromArrays}.
+   *   or a `VertexArrayInfo` as returned from {@link module:twgl.createVertexArrayInfo}
+   * @memberOf module:twgl/programs
+   */
+  function setBuffersAndAttributes(gl, programInfo, buffers) {
+    if (buffers.vertexArrayObject) {
+      gl.bindVertexArray(buffers.vertexArrayObject);
+    } else {
+      setAttributes(programInfo.attribSetters || programInfo, buffers.attribs);
+      if (buffers.indices) {
+        gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, buffers.indices);
+      }
+    }
+  }
+
+  /**
+   * @typedef {Object} ProgramInfo
+   * @property {WebGLProgram} program A shader program
+   * @property {Object<string, function>} uniformSetters object of setters as returned from createUniformSetters,
+   * @property {Object<string, function>} attribSetters object of setters as returned from createAttribSetters,
+   * @memberOf module:twgl
+   */
+
+  /**
+   * Creates a ProgramInfo from an existing program.
+   *
+   * A ProgramInfo contains
+   *
+   *     programInfo = {
+   *        program: WebGLProgram,
+   *        uniformSetters: object of setters as returned from createUniformSetters,
+   *        attribSetters: object of setters as returned from createAttribSetters,
+   *     }
+   *
+   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
+   *        to use.
+   * @param {WebGLProgram} program an existing WebGLProgram.
+   * @return {module:twgl.ProgramInfo} The created ProgramInfo.
+   * @memberOf module:twgl/programs
+   */
+  function createProgramInfoFromProgram(gl, program) {
+    var uniformSetters = createUniformSetters(gl, program);
+    var attribSetters = createAttributeSetters(gl, program);
+    var programInfo = {
+      program: program,
+      uniformSetters: uniformSetters,
+      attribSetters: attribSetters,
+    };
+
+    if (utils.isWebGL2(gl)) {
+      programInfo.uniformBlockSpec = createUniformBlockSpecFromProgram(gl, program);
+    }
+
+    return programInfo;
+  }
+
+  /**
+   * Creates a ProgramInfo from 2 sources.
+   *
+   * A ProgramInfo contains
+   *
+   *     programInfo = {
+   *        program: WebGLProgram,
+   *        uniformSetters: object of setters as returned from createUniformSetters,
+   *        attribSetters: object of setters as returned from createAttribSetters,
+   *     }
+   *
+   * NOTE: There are 3 signatures for this function
+   *
+   *     twgl.createProgramInfo(gl, [vs, fs], opt_errFunc);
+   *     twgl.createProgramInfo(gl, [vs, fs], opt_attribs, opt_errFunc);
+   *     twgl.createProgramInfo(gl, [vs, fs], opt_attribs, opt_locations, opt_errFunc);
+   *
+   * @param {WebGLRenderingContext} gl The WebGLRenderingContext
+   *        to use.
+   * @param {string[]} shaderSourcess Array of sources for the
+   *        shaders or ids. The first is assumed to be the vertex shader,
+   *        the second the fragment shader.
+   * @param {string[]} [opt_attribs] An array of attribs names. Locations will be assigned by index if not passed in
+   * @param {number[]} [opt_locations] The locations for the attributes. A parallel array to opt_attribs letting you assign locations.
+   * @param {module:twgl.ErrorCallback} opt_errorCallback callback for errors. By default it just prints an error to the console
+   *        on error. If you want something else pass an callback. It's passed an error message.
+   * @return {module:twgl.ProgramInfo?} The created ProgramInfo or null if it failed to link or compile
+   * @memberOf module:twgl/programs
+   */
+  function createProgramInfo(
+      gl, shaderSources, opt_attribs, opt_locations, opt_errorCallback) {
+    if (typeof opt_locations === 'function') {
+      opt_errorCallback = opt_locations;
+      opt_locations = undefined;
+    }
+    if (typeof opt_attribs === 'function') {
+      opt_errorCallback = opt_attribs;
+      opt_attribs = undefined;
+    }
+    var errFn = opt_errorCallback || error;
+    var good = true;
+    shaderSources = shaderSources.map(function(source) {
+      // Lets assume if there is no \n it's an id
+      if (source.indexOf("\n") < 0) {
+        var script = document.getElementById(source);
+        if (!script) {
+          errFn("no element with id: " + source);
+          good = false;
+        } else {
+          source = script.text;
+        }
+      }
+      return source;
+    });
+    if (!good) {
+      return null;
+    }
+    var program = createProgramFromSources(gl, shaderSources, opt_attribs, opt_locations, opt_errorCallback);
+    if (!program) {
+      return null;
+    }
+    return createProgramInfoFromProgram(gl, program);
+  }
+
+  // Using quotes prevents Uglify from changing the names.
+  // No speed diff AFAICT.
+  return {
+    "createAttributeSetters": createAttributeSetters,
+
+    "createProgram": createProgram,
+    "createProgramFromScripts": createProgramFromScripts,
+    "createProgramFromSources": createProgramFromSources,
+    "createProgramInfo": createProgramInfo,
+    "createProgramInfoFromProgram": createProgramInfoFromProgram,
+    "createUniformSetters": createUniformSetters,
+    "createUniformBlockSpecFromProgram": createUniformBlockSpecFromProgram,
+    "createUniformBlockInfoFromProgram": createUniformBlockInfoFromProgram,
+    "createUniformBlockInfo": createUniformBlockInfo,
+
+    "setAttributes": setAttributes,
+    "setBuffersAndAttributes": setBuffersAndAttributes,
+    "setUniforms": setUniforms,
+    "setUniformBlock": setUniformBlock,
+    "setBlockUniforms": setBlockUniforms,
+    "bindUniformBlock": bindUniformBlock,
+  };
+
+});
+
+
+/*
+ * Copyright 2015, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of his
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+define('twgl/draw',[
+    './programs',
+  ], function(
+    programs) {
+  
+
+  /**
+   * Drawing related functions
+   *
+   * For backward compatibily they are available at both `twgl.draw` and `twgl`
+   * itself
+   *
+   * See {@link module:twgl} for core functions
+   *
+   * @module twgl/draw
+   */
+
+  /**
    * Calls `gl.drawElements` or `gl.drawArrays`, whichever is appropriate
    *
    * normally you'd call `gl.drawElements` or `gl.drawArrays` yourself
@@ -2019,28 +2771,35 @@ define('twgl/twgl',[], function () {
    *
    * @param {WebGLRenderingContext} gl A WebGLRenderingContext
    * @param {enum} type eg (gl.TRIANGLES, gl.LINES, gl.POINTS, gl.TRIANGLE_STRIP, ...)
-   * @param {module:twgl.BufferInfo} bufferInfo as returned from createBufferInfoFromArrays
+   * @param {(module:twgl.BufferInfo|module:twgl.VertexArrayInfo)} bufferInfo A BufferInfo as returned from {@link module:twgl.createBufferInfoFromArrays} or
+   *   a VertexArrayInfo as returned from {@link module:twgl.createVertexArrayInfo}
    * @param {number} [count] An optional count. Defaults to bufferInfo.numElements
    * @param {number} [offset] An optional offset. Defaults to 0.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/draw
    */
   function drawBufferInfo(gl, type, bufferInfo, count, offset) {
     var indices = bufferInfo.indices;
+    var elementType = bufferInfo.elementType;
     var numElements = count === undefined ? bufferInfo.numElements : count;
     offset = offset === undefined ? 0 : offset;
-    if (indices) {
-      gl.drawElements(type, numElements, bufferInfo.elementType === undefined ? gl.UNSIGNED_SHORT : bufferInfo.elementType, offset);
+    if (elementType || indices) {
+      gl.drawElements(type, numElements, elementType === undefined ? gl.UNSIGNED_SHORT : bufferInfo.elementType, offset);
     } else {
       gl.drawArrays(type, offset, numElements);
     }
   }
 
   /**
+   * A DrawObject is useful for putting objects in to an array and passing them to {@link module:twgl.drawObjectList}.
+   *
+   * You need either a `BufferInfo` or a `VertexArrayInfo`.
+   *
    * @typedef {Object} DrawObject
    * @property {boolean} [active] whether or not to draw. Default = `true` (must be `false` to be not true). In otherwords `undefined` = `true`
    * @property {number} [type] type to draw eg. `gl.TRIANGLES`, `gl.LINES`, etc...
-   * @property {module:twgl.ProgramInfo} programInfo A ProgramInfo as returned from createProgramInfo
-   * @property {module:twgl.BufferInfo} bufferInfo A BufferInfo as returned from createBufferInfoFromArrays
+   * @property {module:twgl.ProgramInfo} programInfo A ProgramInfo as returned from {@link module:twgl.createProgramInfo}
+   * @property {module:twgl.BufferInfo} [bufferInfo] A BufferInfo as returned from {@link module:twgl.createBufferInfoFromArrays}
+   * @property {module:twgl.VertexArrayInfo} [vertexArrayInfo] A VertexArrayInfo as returned from {@link module:twgl.createVertexArrayInfo}
    * @property {Object<string, ?>} uniforms The values for the uniforms.
    *   You can pass multiple objects by putting them in an array. For example
    *
@@ -2068,7 +2827,7 @@ define('twgl/twgl',[], function () {
   /**
    * Draws a list of objects
    * @param {DrawObject[]} objectsToDraw an array of objects to draw.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/draw
    */
   function drawObjectList(gl, objectsToDraw) {
     var lastUsedProgramInfo = null;
@@ -2080,8 +2839,9 @@ define('twgl/twgl',[], function () {
       }
 
       var programInfo = object.programInfo;
-      var bufferInfo = object.bufferInfo;
+      var bufferInfo = object.vertexArrayInfo || object.bufferInfo;
       var bindBuffers = false;
+      var type = object.type === undefined ? gl.TRIANGLES : object.type;
 
       if (programInfo !== lastUsedProgramInfo) {
         lastUsedProgramInfo = programInfo;
@@ -2096,17 +2856,171 @@ define('twgl/twgl',[], function () {
 
       // Setup all the needed attributes.
       if (bindBuffers || bufferInfo !== lastUsedBufferInfo) {
+        if (lastUsedBufferInfo && lastUsedBufferInfo.vertexArrayObject && !bufferInfo.vertexArrayObject) {
+          gl.bindVertexArray(null);
+        }
         lastUsedBufferInfo = bufferInfo;
-        setBuffersAndAttributes(gl, programInfo, bufferInfo);
+        programs.setBuffersAndAttributes(gl, programInfo, bufferInfo);
       }
 
       // Set the uniforms.
-      setUniforms(programInfo, object.uniforms);
+      programs.setUniforms(programInfo, object.uniforms);
 
       // Draw
-      drawBufferInfo(gl, object.type || gl.TRIANGLES, bufferInfo, object.count, object.offset);
+      drawBufferInfo(gl, type, bufferInfo, object.count, object.offset);
     });
+
+    if (lastUsedBufferInfo.vertexArrayObject) {
+      gl.bindVertexArray(null);
+    }
   }
+
+  // Using quotes prevents Uglify from changing the names.
+  // No speed diff AFAICT.
+  return {
+    "drawBufferInfo": drawBufferInfo,
+    "drawObjectList": drawObjectList,
+  };
+
+});
+
+
+/*
+ * Copyright 2015, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of his
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+define('twgl/textures',[
+    './typedarrays',
+    './utils',
+  ], function(
+    typedArrays,
+    utils) {
+  
+
+  /**
+   * Low level texture related functions
+   *
+   * You should generally not need to use these functions. They are provided
+   * for those cases where you're doing something out of the ordinary
+   * and you need lower level access.
+   *
+   * For backward compatibily they are available at both `twgl.textures` and `twgl`
+   * itself
+   *
+   * See {@link module:twgl} for core functions
+   *
+   * @module twgl/textures
+   */
+
+  // make sure we don't see a global gl
+  var gl = undefined;  // eslint-disable-line
+  var defaults = {
+    textureColor: new Uint8Array([128, 192, 255, 255]),
+    textureOptions: {},
+    crossOrigin: undefined,
+  };
+  var isArrayBuffer = typedArrays.isArrayBuffer;
+
+  /* PixelFormat */
+  var ALPHA                          = 0x1906;
+  var RGB                            = 0x1907;
+  var RGBA                           = 0x1908;
+  var LUMINANCE                      = 0x1909;
+  var LUMINANCE_ALPHA                = 0x190A;
+
+  /* TextureWrapMode */
+  var REPEAT                         = 0x2901;  // eslint-disable-line
+  var MIRRORED_REPEAT                = 0x8370;  // eslint-disable-line
+
+  /* TextureMagFilter */
+  var NEAREST                        = 0x2600;  // eslint-disable-line
+
+  /* TextureMinFilter */
+  var NEAREST_MIPMAP_NEAREST         = 0x2700;  // eslint-disable-line
+  var LINEAR_MIPMAP_NEAREST          = 0x2701;  // eslint-disable-line
+  var NEAREST_MIPMAP_LINEAR          = 0x2702;  // eslint-disable-line
+  var LINEAR_MIPMAP_LINEAR           = 0x2703;  // eslint-disable-line
+
+  /**
+   * Sets the default texture color.
+   *
+   * The default texture color is used when loading textures from
+   * urls. Because the URL will be loaded async we'd like to be
+   * able to use the texture immediately. By putting a 1x1 pixel
+   * color in the texture we can start using the texture before
+   * the URL has loaded.
+   *
+   * @param {number[]} color Array of 4 values in the range 0 to 1
+   * @deprecated see {@link module:twgl.setDefaults}
+   * @memberOf module:twgl/textures
+   */
+  function setDefaultTextureColor(color) {
+    defaults.textureColor = new Uint8Array([color[0] * 255, color[1] * 255, color[2] * 255, color[3] * 255]);
+  }
+
+  function setDefaults(newDefaults) {
+    utils.copyExistingProperties(newDefaults, defaults);
+    if (newDefaults.textureColor) {
+      setDefaultTextureColor(newDefaults.textureColor);
+    }
+  }
+
+  /**
+   * Gets a string for gl enum
+   *
+   * Note: Several enums are the same. Without more
+   * context (which function) it's impossible to always
+   * give the correct enum.
+   *
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext
+   * @param {number} value the value of the enum you want to look up.
+   */
+  var glEnumToString = (function() {
+    var enums;
+
+    function init(gl) {
+      if (!enums) {
+        enums = {};
+        Object.keys(gl).forEach(function(key) {
+          if (typeof gl[key] === 'number') {
+            enums[gl[key]] = key;
+          }
+        });
+      }
+    }
+
+    return function glEnumToString(gl, value) {
+      init();
+      return enums[value] || ("0x" + value.toString(16));
+    };
+  }());
 
   /**
    * A function to generate the source for a texture.
@@ -2125,15 +3039,22 @@ define('twgl/twgl',[], function () {
    * @property {number} [target] the type of texture `gl.TEXTURE_2D` or `gl.TEXTURE_CUBE_MAP`. Defaults to `gl.TEXTURE_2D`.
    * @property {number} [width] the width of the texture. Only used if src is an array or typed array or null.
    * @property {number} [height] the height of a texture. Only used if src is an array or typed array or null.
+   * @property {number} [depth] the depth of a texture. Only used if src is an array or type array or null and target is `TEXTURE_3D` .
    * @property {number} [min] the min filter setting (eg. `gl.LINEAR`). Defaults to `gl.NEAREST_MIPMAP_LINEAR`
    *     or if texture is not a power of 2 on both dimensions then defaults to `gl.LINEAR`.
    * @property {number} [mag] the mag filter setting (eg. `gl.LINEAR`). Defaults to `gl.LINEAR`
+   * @property {number} [internalFormat] internal format for texture. Defaults to `gl.RGBA`
    * @property {number} [format] format for texture. Defaults to `gl.RGBA`.
    * @property {number} [type] type for texture. Defaults to `gl.UNSIGNED_BYTE` unless `src` is ArrayBuffer. If `src`
    *     is ArrayBuffer defaults to type that matches ArrayBuffer type.
-   * @property {number} [wrap] Texture wrapping for both S and T. Defaults to `gl.REPEAT` for 2D and `gl.CLAMP_TO_EDGE` for cube
+   * @property {number} [wrap] Texture wrapping for both S and T (and R if TEXTURE_3D). Defaults to `gl.REPEAT` for 2D unless src is WebGL1 and src not npot and `gl.CLAMP_TO_EDGE` for cube
    * @property {number} [wrapS] Texture wrapping for S. Defaults to `gl.REPEAT` and `gl.CLAMP_TO_EDGE` for cube. If set takes precedence over `wrap`.
    * @property {number} [wrapT] Texture wrapping for T. Defaults to `gl.REPEAT` and `gl.CLAMP_TO_EDGE` for cube. If set takes precedence over `wrap`.
+   * @property {number} [wrapR] Texture wrapping for R. Defaults to `gl.REPEAT` and `gl.CLAMP_TO_EDGE` for cube. If set takes precedence over `wrap`.
+   * @property {number} [minLod] TEXTURE_MIN_LOD setting
+   * @property {number} [maxLod] TEXTURE_MAX_LOD setting
+   * @property {number} [baseLevel] TEXTURE_BASE_LEVEL setting
+   * @property {number} [maxLevel] TEXTURE_MAX_LEVEL setting
    * @property {number} [unpackAlignment] The `gl.UNPACK_ALIGNMENT` used when uploading an array. Defaults to 1.
    * @property {number} [premultiplyAlpha] Whether or not to premultiply alpha. Defaults to whatever the current setting is.
    *     This lets you set it once before calling `twgl.createTexture` or `twgl.createTextures` and only override
@@ -2208,13 +3129,16 @@ define('twgl/twgl',[], function () {
    */
   function savePackState(gl, options) {
     if (options.colorspaceConversion !== undefined) {
-      lastPackState.colorSpaceConversion = gl.getParameter(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL);
+      lastPackState.colorspaceConversion = gl.getParameter(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL);
+      gl.pixelStorei(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL, options.colorspaceConversion);
     }
     if (options.premultiplyAlpha !== undefined) {
       lastPackState.premultiplyAlpha = gl.getParameter(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL);
+      gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, options.premultiplyAlpha);
     }
     if (options.flipY !== undefined) {
       lastPackState.flipY = gl.getParameter(gl.UNPACK_FLIP_Y_WEBGL);
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, options.flipY);
     }
   }
 
@@ -2225,7 +3149,7 @@ define('twgl/twgl',[], function () {
    */
   function restorePackState(gl, options) {
     if (options.colorspaceConversion !== undefined) {
-      gl.pixelStorei(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL, lastPackState.colorSpaceConversion);
+      gl.pixelStorei(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL, lastPackState.colorspaceConversion);
     }
     if (options.premultiplyAlpha !== undefined) {
       gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL, lastPackState.premultiplyAlpha);
@@ -2241,7 +3165,7 @@ define('twgl/twgl',[], function () {
    * @param {WebGLTexture} tex the WebGLTexture to set parameters for
    * @param {module:twgl.TextureOptions} options A TextureOptions object with whatever parameters you want set.
    *   This is often the same options you passed in when you created the texture.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function setTextureParameters(gl, tex, options) {
     var target = options.target || gl.TEXTURE_2D;
@@ -2255,12 +3179,30 @@ define('twgl/twgl',[], function () {
     if (options.wrap) {
       gl.texParameteri(target, gl.TEXTURE_WRAP_S, options.wrap);
       gl.texParameteri(target, gl.TEXTURE_WRAP_T, options.wrap);
+      if (target === gl.TEXTURE_3D) {
+        gl.texParameteri(target, gl.TEXTURE_WRAP_R, options.wrap);
+      }
+    }
+    if (options.wrapR) {
+      gl.texParameteri(target, gl.TEXTURE_WRAP_R, options.wrapR);
     }
     if (options.wrapS) {
       gl.texParameteri(target, gl.TEXTURE_WRAP_S, options.wrapS);
     }
     if (options.wrapT) {
       gl.texParameteri(target, gl.TEXTURE_WRAP_T, options.wrapT);
+    }
+    if (options.minLod) {
+      gl.texParameteri(target, gl.TEXTURE_MIN_LOD, options.minLod);
+    }
+    if (options.maxLod) {
+      gl.texParameteri(target, gl.TEXTURE_MAX_LOD, options.maxLod);
+    }
+    if (options.baseLevel) {
+      gl.texParameteri(target, gl.TEXTURE_BASE_LEVEL, options.baseLevel);
+    }
+    if (options.maxLevel) {
+      gl.texParameteri(target, gl.TEXTURE_MAX_LEVEL, options.maxLevel);
     }
   }
 
@@ -2297,7 +3239,7 @@ define('twgl/twgl',[], function () {
    *   This is often the same options you passed in when you created the texture.
    * @param {number} [width] width of texture
    * @param {number} [height] height of texture
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function setTextureFilteringForSize(gl, tex, options, width, height) {
     options = options || defaults.textureOptions;
@@ -2337,6 +3279,7 @@ define('twgl/twgl',[], function () {
    * @typedef {Object} FaceInfo
    * @property {number} face gl enum for texImage2D
    * @property {number} ndx face index (0 - 5) into source data
+   * @ignore
    */
 
   /**
@@ -2373,7 +3316,7 @@ define('twgl/twgl',[], function () {
    * @param {HTMLElement} element a canvas, img, or video element.
    * @param {module:twgl.TextureOptions} [options] A TextureOptions object with whatever parameters you want set.
    *   This is often the same options you passed in when you created the texture.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    * @kind function
    */
   var setTextureFromElement = function() {
@@ -2384,6 +3327,7 @@ define('twgl/twgl',[], function () {
       var width = element.width;
       var height = element.height;
       var format = options.format || gl.RGBA;
+      var internalFormat = options.internalFormat || format;
       var type = options.type || gl.UNSIGNED_BYTE;
       savePackState(gl, options);
       gl.bindTexture(target, tex);
@@ -2420,13 +3364,44 @@ define('twgl/twgl',[], function () {
           var xOffset = slices[f.ndx * 2 + 0] * size;
           var yOffset = slices[f.ndx * 2 + 1] * size;
           ctx.drawImage(element, xOffset, yOffset, size, size, 0, 0, size, size);
-          gl.texImage2D(f.face, 0, format, format, type, ctx.canvas);
+          gl.texImage2D(f.face, 0, internalFormat, format, type, ctx.canvas);
         });
         // Free up the canvas memory
         ctx.canvas.width = 1;
         ctx.canvas.height = 1;
+      } else if (target === gl.TEXTURE_3D) {
+        var smallest = Math.min(element.width, element.height);
+        var largest = Math.max(element.width, element.height);
+        var depth = largest / smallest;
+        if (depth % 1 !== 0) {
+          throw "can not compute 3D dimensions of element";
+        }
+        var xMult = element.width  === largest ? 1 : 0;
+        var yMult = element.height === largest ? 1 : 0;
+        gl.texImage3D(target, 0, internalFormat, smallest, smallest, smallest, 0, format, type, null);
+        // remove this is texSubImage3D gets width and height arguments
+        ctx.canvas.width = smallest;
+        ctx.canvas.height = smallest;
+        for (var d = 0; d < depth; ++d) {
+//          gl.pixelStorei(gl.UNPACK_SKIP_PIXELS, d * smallest);
+//          gl.texSubImage3D(target, 0, 0, 0, d, format, type, element);
+            var srcX = d * smallest * xMult;
+            var srcY = d * smallest * yMult;
+            var srcW = smallest;
+            var srcH = smallest;
+            var dstX = 0;
+            var dstY = 0;
+            var dstW = smallest;
+            var dstH = smallest;
+            ctx.drawImage(element, srcX, srcY, srcW, srcH, dstX, dstY, dstW, dstH);
+            gl.texSubImage3D(target, 0, 0, 0, d, format, type, ctx.canvas);
+        }
+        ctx.canvas.width = 0;
+        ctx.canvas.height = 0;
+// FIX (save state)
+//        gl.pixelStorei(gl.UNPACK_SKIP_PIXELS, 0);
       } else {
-        gl.texImage2D(target, 0, format, format, type, element);
+        gl.texImage2D(target, 0, internalFormat, format, type, element);
       }
       restorePackState(gl, options);
       if (options.auto !== false) {
@@ -2435,19 +3410,6 @@ define('twgl/twgl',[], function () {
       setTextureParameters(gl, tex, options);
     };
   }();
-
-  /**
-   * Copy an object 1 level deep
-   * @param {object} src object to copy
-   * @return {object} the copy
-   */
-  function shallowCopy(src) {
-    var dst = {};
-    Object.keys(src).forEach(function(key) {
-      dst[key] = src[key];
-    });
-    return dst;
-  }
 
   function noop() {
   }
@@ -2466,14 +3428,27 @@ define('twgl/twgl',[], function () {
     if (crossOrigin !== undefined) {
       img.crossOrigin = crossOrigin;
     }
-    img.onerror = function() {
+
+    function clearEventHandlers() {
+      img.removeEventListener('error', onError);  // eslint-disable-line
+      img.removeEventListener('load', onLoad);  // eslint-disable-line
+      img = null;
+    }
+
+    function onError() {
       var msg = "couldn't load image: " + url;
-      error(msg);
+      utils.error(msg);
       callback(msg, img);
-    };
-    img.onload = function() {
+      clearEventHandlers();
+    }
+
+    function onLoad() {
       callback(null, img);
-    };
+      clearEventHandlers();
+    }
+
+    img.addEventListener('error', onError);
+    img.addEventListener('load', onLoad);
     img.src = url;
     return img;
   }
@@ -2485,7 +3460,7 @@ define('twgl/twgl',[], function () {
    * @param {WebGLTexture} tex the WebGLTexture to set parameters for
    * @param {module:twgl.TextureOptions} [options] A TextureOptions object with whatever parameters you want set.
    *   This is often the same options you passed in when you created the texture.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function setTextureTo1PixelColor(gl, tex, options) {
     options = options || defaults.textureOptions;
@@ -2501,6 +3476,8 @@ define('twgl/twgl',[], function () {
       for (var ii = 0; ii < 6; ++ii) {
         gl.texImage2D(gl.TEXTURE_CUBE_MAP_POSITIVE_X + ii, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, color);
       }
+    } else if (target === gl.TEXTURE_3D) {
+      gl.texImage3D(target, 0, gl.RGBA, 1, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, color);
     } else {
       gl.texImage2D(target, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, color);
     }
@@ -2556,14 +3533,14 @@ define('twgl/twgl',[], function () {
    * @param {module:twgl.TextureReadyCallback} [callback] A function to be called when the image has finished loading. err will
    *    be non null if there was an error.
    * @return {HTMLImageElement} the image being downloaded.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function loadTextureFromUrl(gl, tex, options, callback) {
     callback = callback || noop;
     options = options || defaults.textureOptions;
     setTextureTo1PixelColor(gl, tex, options);
     // Because it's async we need to copy the options.
-    options = shallowCopy(options);
+    options = utils.shallowCopy(options);
     var img = loadImage(options.src, options.crossOrigin, function(err, img) {
       if (err) {
         callback(err, tex, img);
@@ -2583,7 +3560,7 @@ define('twgl/twgl',[], function () {
    * @param {module:twgl.TextureOptions} options A TextureOptions object with whatever parameters you want set.
    * @param {module:twgl.CubemapReadyCallback} [callback] A function to be called when all the images have finished loading. err will
    *    be non null if there was an error.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function loadCubemapFromUrls(gl, tex, options, callback) {
     callback = callback || noop;
@@ -2599,7 +3576,7 @@ define('twgl/twgl',[], function () {
     }
     setTextureTo1PixelColor(gl, tex, options);
     // Because it's async we need to copy the options.
-    options = shallowCopy(options);
+    options = utils.shallowCopy(options);
     var numToLoad = 6;
     var errors = [];
     var imgs;
@@ -2649,7 +3626,7 @@ define('twgl/twgl',[], function () {
    * Gets the number of compontents for a given image format.
    * @param {number} format the format.
    * @return {number} the number of components for the format.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function getNumComponentsForFormat(format) {
     switch (format) {
@@ -2674,33 +3651,14 @@ define('twgl/twgl',[], function () {
    */
   function getTextureTypeForArrayType(gl, src) {
     if (isArrayBuffer(src)) {
-      return getGLTypeForTypedArray(src);
+      return typedArrays.getGLTypeForTypedArray(src);
     }
     return gl.UNSIGNED_BYTE;
   }
 
-  /**
-   * Sets a texture from an array or typed array. If the width or height is not provided will attempt to
-   * guess the size. See {@link module:twgl.TextureOptions}.
-   * @param {WebGLRenderingContext} gl the WebGLRenderingContext
-   * @param {WebGLTexture} tex the WebGLTexture to set parameters for
-   * @param {(number[]|ArrayBuffer)} src An array or typed arry with texture data.
-   * @param {module:twgl.TextureOptions} [options] A TextureOptions object with whatever parameters you want set.
-   *   This is often the same options you passed in when you created the texture.
-   * @memberOf module:twgl
-   */
-  function setTextureFromArray(gl, tex, src, options) {
-    options = options || defaults.textureOptions;
-    var target = options.target || gl.TEXTURE_2D;
-    gl.bindTexture(target, tex);
-    var width = options.width;
-    var height = options.height;
-    var format = options.format || gl.RGBA;
-    var type = options.type || getTextureTypeForArrayType(gl, src);
-    var numComponents = getNumComponentsForFormat(format);
-    var numElements = src.length / numComponents;
-    if (numElements % 1) {
-      throw "length wrong size of format: " + glEnumToString(gl, format);
+  function guessDimensions(gl, target, width, height, numElements) {
+    if (numElements % 1 !== 0) {
+      throw "can't guess dimensions";
     }
     if (!width && !height) {
       var size = Math.sqrt(numElements / (target === gl.TEXTURE_CUBE_MAP ? 6 : 1));
@@ -2714,17 +3672,80 @@ define('twgl/twgl',[], function () {
     } else if (!height) {
       height = numElements / width;
       if (height % 1) {
-        throw "can't guess height";
+        throw "can't guess dimensions";
       }
     } else if (!width) {
       width = numElements / height;
       if (width % 1) {
-        throw "can't guess width";
+        throw "can't guess dimensions";
       }
     }
+    return {
+      width: width,
+      height: height,
+    };
+  }
+
+  /**
+   * Sets a texture from an array or typed array. If the width or height is not provided will attempt to
+   * guess the size. See {@link module:twgl.TextureOptions}.
+   * @param {WebGLRenderingContext} gl the WebGLRenderingContext
+   * @param {WebGLTexture} tex the WebGLTexture to set parameters for
+   * @param {(number[]|ArrayBuffer)} src An array or typed arry with texture data.
+   * @param {module:twgl.TextureOptions} [options] A TextureOptions object with whatever parameters you want set.
+   *   This is often the same options you passed in when you created the texture.
+   * @memberOf module:twgl/textures
+   */
+  function setTextureFromArray(gl, tex, src, options) {
+    options = options || defaults.textureOptions;
+    var target = options.target || gl.TEXTURE_2D;
+    gl.bindTexture(target, tex);
+    var width = options.width;
+    var height = options.height;
+    var depth = options.depth;
+    var format = options.format || gl.RGBA;
+    var internalFormat = options.internalFormat || format;
+    var type = options.type || getTextureTypeForArrayType(gl, src);
+    var numComponents = getNumComponentsForFormat(format);
+    var numElements = src.length / numComponents;
+    if (numElements % 1) {
+      throw "length wrong size for format: " + glEnumToString(gl, format);
+    }
+    var dimensions;
+    if (target === gl.TEXTURE_3D) {
+      if (!width && !height && !depth) {
+        var size = Math.cbrt(numElements);
+        if (size % 1 !== 0) {
+          throw "can't guess cube size of array of numElements: " + numElements;
+        }
+        width = size;
+        height = size;
+        depth = size;
+      } else if (width && (!height || !depth)) {
+        dimensions = guessDimensions(gl, target, height, depth, numElements / width);
+        height = dimensions.width;
+        depth = dimensions.height;
+      } else if (height && (!width || !depth)) {
+        dimensions = guessDimensions(gl, target, width, depth, numElements / height);
+        width = dimensions.width;
+        depth = dimensions.height;
+      } else {
+        dimensions = guessDimensions(gl, target, width, height, numElements / depth);
+        width = dimensions.width;
+        height = dimensions.height;
+      }
+    } else {
+      dimensions = guessDimensions(gl, target, width, height, numElements);
+      width = dimensions.width;
+      height = dimensions.height;
+    }
     if (!isArrayBuffer(src)) {
-      var Type = getTypedArrayTypeForGLType(type);
+      var Type = typedArrays.getTypedArrayTypeForGLType(type);
       src = new Type(src);
+    } else {
+      if (src instanceof Uint8ClampedArray) {
+        src = new Uint8Array(src.buffer);
+      }
     }
     gl.pixelStorei(gl.UNPACK_ALIGNMENT, options.unpackAlignment || 1);
     savePackState(gl, options);
@@ -2733,15 +3754,18 @@ define('twgl/twgl',[], function () {
       getCubeFacesWithNdx(gl, options).forEach(function(f) {
         var offset = faceSize * f.ndx;
         var data = src.subarray(offset, offset + faceSize);
-        gl.texImage2D(f.face, 0, format, width, height, 0, format, type, data);
+        gl.texImage2D(f.face, 0, internalFormat, width, height, 0, format, type, data);
       });
+    } else if (target === gl.TEXTURE_3D) {
+      gl.texImage3D(target, 0, internalFormat, width, height, depth, 0, format, type, src);
     } else {
-      gl.texImage2D(target, 0, format, width, height, 0, format, type, src);
+      gl.texImage2D(target, 0, internalFormat, width, height, 0, format, type, src);
     }
     restorePackState(gl, options);
     return {
       width: width,
       height: height,
+      depth: depth,
     };
   }
 
@@ -2751,21 +3775,25 @@ define('twgl/twgl',[], function () {
    * @param {WebGLRenderingContext} gl the WebGLRenderingContext
    * @param {WebGLTexture} tex the WebGLTexture to set parameters for
    * @param {module:twgl.TextureOptions} options A TextureOptions object with whatever parameters you want set.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function setEmptyTexture(gl, tex, options) {
     var target = options.target || gl.TEXTURE_2D;
     gl.bindTexture(target, tex);
     var format = options.format || gl.RGBA;
+    var internalFormat = options.internalFormat || format;
     var type = options.type || gl.UNSIGNED_BYTE;
     savePackState(gl, options);
     if (target === gl.TEXTURE_CUBE_MAP) {
       for (var ii = 0; ii < 6; ++ii) {
-        gl.texImage2D(gl.TEXTURE_CUBE_MAP_POSITIVE_X + ii, 0, format, options.width, options.height, 0, format, type, null);
+        gl.texImage2D(gl.TEXTURE_CUBE_MAP_POSITIVE_X + ii, 0, internalFormat, options.width, options.height, 0, format, type, null);
       }
+    } else if (target === gl.TEXTURE_3D) {
+      gl.texImage3D(target, 0, internalFormat, options.width, options.height, options.depth, 0, format, type, null);
     } else {
-      gl.texImage2D(target, 0, format, options.width, options.height, 0, format, type, null);
+      gl.texImage2D(target, 0, internalFormat, options.width, options.height, 0, format, type, null);
     }
+    restorePackState(gl, options);
   }
 
   /**
@@ -2774,7 +3802,7 @@ define('twgl/twgl',[], function () {
    * @param {module:twgl.TextureOptions} [options] A TextureOptions object with whatever parameters you want set.
    * @param {module:twgl.TextureReadyCallback} [callback] A callback called when an image has been downloaded and uploaded to the texture.
    * @return {WebGLTexture} the created texture.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function createTexture(gl, options, callback) {
     callback = callback || noop;
@@ -2839,7 +3867,7 @@ define('twgl/twgl',[], function () {
    * @param {module:twgl.TextureOptions} options A TextureOptions object with whatever parameters you want set.
    * @param {number} [width] the new width. If not passed in will use `options.width`
    * @param {number} [height] the new height. If not passed in will use `options.height`
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function resizeTexture(gl, tex, options, width, height) {
     width = width || options.width;
@@ -2950,7 +3978,7 @@ define('twgl/twgl',[], function () {
    * @param {Object.<string,module:twgl.TextureOptions>} options A object of TextureOptions one per texture.
    * @param {module:twgl.TexturesReadyCallback} [callback] A callback called when all textures have been downloaded.
    * @return {Object.<string,WebGLTexture>} the created textures by name
-   * @memberOf module:twgl
+   * @memberOf module:twgl/textures
    */
   function createTextures(gl, textureOptions, callback) {
     callback = callback || noop;
@@ -2969,7 +3997,7 @@ define('twgl/twgl',[], function () {
 
     Object.keys(textureOptions).forEach(function(name) {
       var options = textureOptions[name];
-      var onLoadFn = undefined;
+      var onLoadFn;
       if (isAsyncSrc(options.src)) {
         onLoadFn = function(err, tex, img) {
           images[name] = img;
@@ -2992,6 +4020,114 @@ define('twgl/twgl',[], function () {
 
     return textures;
   }
+
+  // Using quotes prevents Uglify from changing the names.
+  // No speed diff AFAICT.
+  return {
+    "setDefaults_": setDefaults,
+
+    "createTexture": createTexture,
+    "setEmptyTexture": setEmptyTexture,
+    "setTextureFromArray": setTextureFromArray,
+    "loadTextureFromUrl": loadTextureFromUrl,
+    "setTextureFromElement": setTextureFromElement,
+    "setTextureFilteringForSize": setTextureFilteringForSize,
+    "setTextureParameters": setTextureParameters,
+    "setDefaultTextureColor": setDefaultTextureColor,
+    "createTextures": createTextures,
+    "resizeTexture": resizeTexture,
+    "getNumComponentsForFormat": getNumComponentsForFormat,
+  };
+});
+
+
+
+/*
+ * Copyright 2015, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of his
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+define('twgl/framebuffers',[
+    './textures',
+    './utils',
+  ], function(
+    textures,
+    utils) {
+  
+
+  /**
+   * Framebuffer related functions
+   *
+   * For backward compatibily they are available at both `twgl.framebuffer` and `twgl`
+   * itself
+   *
+   * See {@link module:twgl} for core functions
+   *
+   * @module twgl/framebuffers
+   */
+
+  // make sure we don't see a global gl
+  var gl = undefined;  // eslint-disable-line
+
+  var UNSIGNED_BYTE                  = 0x1401;
+
+  /* PixelFormat */
+  var DEPTH_COMPONENT                = 0x1902;
+  var RGBA                           = 0x1908;
+
+  /* Framebuffer Object. */
+  var RGBA4                          = 0x8056;
+  var RGB5_A1                        = 0x8057;
+  var RGB565                         = 0x8D62;
+  var DEPTH_COMPONENT16              = 0x81A5;
+  var STENCIL_INDEX                  = 0x1901;
+  var STENCIL_INDEX8                 = 0x8D48;
+  var DEPTH_STENCIL                  = 0x84F9;
+  var COLOR_ATTACHMENT0              = 0x8CE0;
+  var DEPTH_ATTACHMENT               = 0x8D00;
+  var STENCIL_ATTACHMENT             = 0x8D20;
+  var DEPTH_STENCIL_ATTACHMENT       = 0x821A;
+
+  /* TextureWrapMode */
+  var REPEAT                         = 0x2901;  // eslint-disable-line
+  var CLAMP_TO_EDGE                  = 0x812F;
+  var MIRRORED_REPEAT                = 0x8370;  // eslint-disable-line
+
+  /* TextureMagFilter */
+  var NEAREST                        = 0x2600;  // eslint-disable-line
+  var LINEAR                         = 0x2601;
+
+  /* TextureMinFilter */
+  var NEAREST_MIPMAP_NEAREST         = 0x2700;  // eslint-disable-line
+  var LINEAR_MIPMAP_NEAREST          = 0x2701;  // eslint-disable-line
+  var NEAREST_MIPMAP_LINEAR          = 0x2702;  // eslint-disable-line
+  var LINEAR_MIPMAP_LINEAR           = 0x2703;  // eslint-disable-line
 
   /**
    * The options for a framebuffer attachment.
@@ -3090,7 +4226,7 @@ define('twgl/twgl',[], function () {
    * @param {number} [width] the width for the attachments. Default = size of drawingBuffer
    * @param {number} [height] the height for the attachments. Defautt = size of drawingBuffer
    * @return {module:twgl.FramebufferInfo} the framebuffer and attachments.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/framebuffers
    */
   function createFramebufferInfo(gl, attachments, width, height) {
     var target = gl.FRAMEBUFFER;
@@ -3119,11 +4255,11 @@ define('twgl/twgl',[], function () {
           gl.bindRenderbuffer(gl.RENDERBUFFER, attachment);
           gl.renderbufferStorage(gl.RENDERBUFFER, format, width, height);
         } else {
-          var textureOptions = shallowCopy(attachmentOptions);
+          var textureOptions = utils.shallowCopy(attachmentOptions);
           textureOptions.width = width;
           textureOptions.height = height;
           textureOptions.auto = attachmentOptions.auto === undefined ? false : attachmentOptions.auto;
-          attachment = createTexture(gl, textureOptions);
+          attachment = textures.createTexture(gl, textureOptions);
         }
       }
       if (attachment instanceof WebGLRenderbuffer) {
@@ -3184,7 +4320,7 @@ define('twgl/twgl',[], function () {
    * @param {module:twgl.AttachmentOptions[]} [attachments] the same attachments options as passed to {@link module:twgl.createFramebuffer}.
    * @param {number} [width] the width for the attachments. Default = size of drawingBuffer
    * @param {number} [height] the height for the attachments. Defautt = size of drawingBuffer
-   * @memberOf module:twgl
+   * @memberOf module:twgl/framebuffers
    */
   function resizeFramebufferInfo(gl, framebufferInfo, attachments, width, height) {
     width  = width  || gl.drawingBufferWidth;
@@ -3199,7 +4335,7 @@ define('twgl/twgl',[], function () {
         gl.bindRenderbuffer(gl.RENDERBUFFER, attachment);
         gl.renderbufferStorage(gl.RENDERBUFFER, format, width, height);
       } else if (attachment instanceof WebGLTexture) {
-        resizeTexture(gl, attachment, attachmentOptions, width, height);
+        textures.resizeTexture(gl, attachment, attachmentOptions, width, height);
       } else {
         throw "unknown attachment type";
       }
@@ -3223,7 +4359,7 @@ define('twgl/twgl',[], function () {
    * @param {module:twgl.FramebufferInfo} [framebufferInfo] a framebufferInfo as returned from {@link module:twgl.createFramebuffer}.
    *   If not passed will bind the canvas.
    * @param {number} [target] The target. If not passed `gl.FRAMEBUFFER` will be used.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/framebuffers
    */
 
   function bindFramebufferInfo(gl, framebufferInfo, target) {
@@ -3240,50 +4376,344 @@ define('twgl/twgl',[], function () {
   // Using quotes prevents Uglify from changing the names.
   // No speed diff AFAICT.
   return {
-    "createAttribsFromArrays": createAttribsFromArrays,
-    "createBuffersFromArrays": createBuffersFromArrays,
-    "createBufferFromArray": createBufferFromArray,
-    "createBufferFromTypedArray": createBufferFromTypedArray,
-    "createBufferInfoFromArrays": createBufferInfoFromArrays,
-    "createAttributeSetters": createAttributeSetters,
-    "setAttribInfoBufferFromArray": setAttribInfoBufferFromArray,
-
-    "createProgram": createProgram,
-    "createProgramFromScripts": createProgramFromScripts,
-    "createProgramFromSources": createProgramFromSources,
-    "createProgramInfo": createProgramInfo,
-    "createProgramInfoFromProgram": createProgramInfoFromProgram,
-    "createUniformSetters": createUniformSetters,
-
-    "drawBufferInfo": drawBufferInfo,
-    "drawObjectList": drawObjectList,
-    "getWebGLContext": getWebGLContext,
-    "resizeCanvasToDisplaySize": resizeCanvasToDisplaySize,
-    "setAttributes": setAttributes,
-    "setAttributePrefix": setAttributePrefix,
-    "setBuffersAndAttributes": setBuffersAndAttributes,
-    "setDefaults": setDefaults,
-    "setUniforms": setUniforms,
-
-    "createTexture": createTexture,
-    "setEmptyTexture": setEmptyTexture,
-    "setTextureFromArray": setTextureFromArray,
-    "loadTextureFromUrl": loadTextureFromUrl,
-    "setTextureFromElement": setTextureFromElement,
-    "setTextureFilteringForSize": setTextureFilteringForSize,
-    "setTextureParameters": setTextureParameters,
-    "setDefaultTextureColor": setDefaultTextureColor,
-    "createTextures": createTextures,
-    "resizeTexture": resizeTexture,
-
     "bindFramebufferInfo": bindFramebufferInfo,
     "createFramebufferInfo": createFramebufferInfo,
     "resizeFramebufferInfo": resizeFramebufferInfo,
-
-    "getNumComponentsForFormat": getNumComponentsForFormat,
-    "getGLTypeForTypedArray": getGLTypeForTypedArray,
-    "getTypedArrayTypeForGLType": getTypedArrayTypeForGLType,
   };
+});
+
+
+/*
+ * Copyright 2015, Gregg Tavares.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following disclaimer
+ * in the documentation and/or other materials provided with the
+ * distribution.
+ *     * Neither the name of Gregg Tavares. nor the names of his
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+define('twgl/twgl',[
+    './attributes',
+    './draw',
+    './framebuffers',
+    './programs',
+    './textures',
+    './typedarrays',
+    './utils',
+  ], function(
+    attributes,
+    draw,
+    framebuffers,
+    programs,
+    textures,
+    typedArrays,
+    utils) {
+  
+
+  /**
+   * The main TWGL module.
+   *
+   * For most use cases you shouldn't need anything outside this module.
+   * Exceptions between the stuff added to twgl-full (v3, m4, primitives)
+   *
+   * @module twgl
+   * @borrows module:twgl/attributes.setAttribInfoBufferFromArray as setAttribInfoBufferFromArray
+   * @borrows module:twgl/attributes.createBufferInfoFromArrays as createBufferInfoFromArrays
+   * @borrows module:twgl/attributes.createVertexArrayInfo as createVertexArrayInfo
+   * @borrows module:twgl/draw.drawBufferInfo as drawBufferInfo
+   * @borrows module:twgl/draw.drawObjectList as drawObjectList
+   * @borrows module:twgl/framebuffers.createFramebufferInfo as createFramebufferInfo
+   * @borrows module:twgl/framebuffers.resizeFramebufferInfo as resizeFramebufferInfo
+   * @borrows module:twgl/framebuffers.bindFramebufferInfo as bindFramebufferInfo
+   * @borrows module:twgl/programs.createProgramInfo as createProgramInfo
+   * @borrows module:twgl/programs.createUniformBlockInfo as createUniformBlockInfo
+   * @borrows module:twgl/programs.bindUniformBlock as bindUniformBlock
+   * @borrows module:twgl/programs.setUniformBlock as setUniformBlock
+   * @borrows module:twgl/programs.setBlockUniforms as setBlockUniforms
+   * @borrows module:twgl/programs.setUniforms as setUniforms
+   * @borrows module:twgl/programs.setBuffersAndAttributes as setBuffersAndAttributes
+   * @borrows module:twgl/textures.setTextureFromArray as setTextureFromArray
+   * @borrows module:twgl/textures.createTexture as createTexture
+   * @borrows module:twgl/textures.resizeTexture as resizeTexture
+   * @borrows module:twgl/textures.createTextures as createTextures
+   */
+
+  // make sure we don't see a global gl
+  var gl = undefined;  // eslint-disable-line
+  var defaults = {
+    enableVertexArrayObjects: true,
+  };
+
+  /**
+   * Various default settings for twgl.
+   *
+   * Note: You can call this any number of times. Example:
+   *
+   *     twgl.setDefaults({ textureColor: [1, 0, 0, 1] });
+   *     twgl.setDefaults({ attribPrefix: 'a_' });
+   *
+   * is equivalent to
+   *
+   *     twgl.setDefaults({
+   *       textureColor: [1, 0, 0, 1],
+   *       attribPrefix: 'a_',
+   *     });
+   *
+   * @typedef {Object} Defaults
+   * @property {string} attribPrefix The prefix to stick on attributes
+   *
+   *   When writing shaders I prefer to name attributes with `a_`, uniforms with `u_` and varyings with `v_`
+   *   as it makes it clear where they came from. But, when building geometry I prefer using unprefixed names.
+   *
+   *   In otherwords I'll create arrays of geometry like this
+   *
+   *       var arrays = {
+   *         position: ...
+   *         normal: ...
+   *         texcoord: ...
+   *       };
+   *
+   *   But need those mapped to attributes and my attributes start with `a_`.
+   *
+   *   Default: `""`
+   *
+   * @property {number[]} textureColor Array of 4 values in the range 0 to 1
+   *
+   *   The default texture color is used when loading textures from
+   *   urls. Because the URL will be loaded async we'd like to be
+   *   able to use the texture immediately. By putting a 1x1 pixel
+   *   color in the texture we can start using the texture before
+   *   the URL has loaded.
+   *
+   *   Default: `[0.5, 0.75, 1, 1]`
+   *
+   * @property {string} crossOrigin
+   *
+   *   If not undefined sets the crossOrigin attribute on images
+   *   that twgl creates when downloading images for textures.
+   *
+   *   Also see {@link module:twgl.TextureOptions}.
+   *
+   * @property {bool} enableVertexArrayObjects
+   *
+   *   If true then in WebGL 1.0 will attempt to get the `OES_vertex_array_object` extension.
+   *   If successful it will copy create/bind/delete/isVertexArrayOES from the extension to
+   *   the WebGLRenderingContext removing the OES at the end which is the standard entry point
+   *   for WebGL 2.
+   *
+   *   Note: According to webglstats.com 90% of devices support `OES_vertex_array_object`.
+   *   If you just want to count on support I suggest using [this polyfill](https://github.com/KhronosGroup/WebGL/blob/master/sdk/demos/google/resources/OESVertexArrayObject.js)
+   *   or ignoring devices that don't support them.
+   *
+   *   Default: `true`
+   *
+   * @memberOf module:twgl
+   */
+
+  /**
+   * Sets various defaults for twgl.
+   *
+   * In the interest of terseness which is kind of the point
+   * of twgl I've integrated a few of the older functions here
+   *
+   * @param {module:twgl.Defaults} newDefaults The default settings.
+   * @memberOf module:twgl
+   */
+  function setDefaults(newDefaults) {
+    utils.copyExistingProperties(newDefaults, defaults);
+    attributes.setDefaults_(newDefaults);  // eslint-disable-line
+    textures.setDefaults_(newDefaults);  // eslint-disable-line
+  }
+
+  /**
+   * Adds Vertex Array Objects to WebGL 1 GL contexts if available
+   * @param {WebGLRenderingContext} gl A WebGLRenderingContext
+   */
+  function addVertexArrayObjectSupport(gl) {
+    if (!gl || !defaults.enableVertexArrayObjects) {
+      return;
+    }
+    if (utils.isWebGL1(gl)) {
+      var ext = gl.getExtension("OES_vertex_array_object");
+      if (ext) {
+        gl.createVertexArray = function() {
+          return ext.createVertexArrayOES();
+        };
+        gl.deleteVertexArray = function(v) {
+          ext.deleteVertexArrayOES(v);
+        };
+        gl.isVertexArray = function(v) {
+          return ext.isVertexArrayOES(v);
+        };
+        gl.bindVertexArray = function(v) {
+          ext.bindVertexArrayOES(v);
+        };
+        gl.VERTEX_ARRAY_BINDING = ext.VERTEX_ARRAY_BINDING_OES;
+      }
+    }
+  }
+
+  /**
+   * Creates a webgl context.
+   * @param {HTMLCanvasElement} canvas The canvas tag to get
+   *     context from. If one is not passed in one will be
+   *     created.
+   * @return {WebGLRenderingContext} The created context.
+   */
+  function create3DContext(canvas, opt_attribs) {
+    var names = ["webgl", "experimental-webgl"];
+    var context = null;
+    for (var ii = 0; ii < names.length; ++ii) {
+      try {
+        context = canvas.getContext(names[ii], opt_attribs);
+      } catch(e) {}  // eslint-disable-line
+      if (context) {
+        break;
+      }
+    }
+    return context;
+  }
+
+  /**
+   * Gets a WebGL context.
+   * @param {HTMLCanvasElement} canvas a canvas element.
+   * @param {WebGLContextCreationAttirbutes} [opt_attribs] optional webgl context creation attributes
+   * @memberOf module:twgl
+   */
+  function getWebGLContext(canvas, opt_attribs) {
+    var gl = create3DContext(canvas, opt_attribs);
+    addVertexArrayObjectSupport(gl);
+    return gl;
+  }
+
+  /**
+   * Creates a webgl context.
+   *
+   * Will return a WebGL2 context if possible.
+   *
+   * You can check if it's WebGL2 with
+   *
+   *     twgl.isWebGL2(gl);
+   *
+   * @param {HTMLCanvasElement} canvas The canvas tag to get
+   *     context from. If one is not passed in one will be
+   *     created.
+   * @return {WebGLRenderingContext} The created context.
+   */
+  function createContext(canvas, opt_attribs) {
+    var names = ["webgl2", "experimental-webgl2", "webgl", "experimental-webgl"];
+    var context = null;
+    for (var ii = 0; ii < names.length; ++ii) {
+      try {
+        context = canvas.getContext(names[ii], opt_attribs);
+      } catch(e) {}  // eslint-disable-line
+      if (context) {
+        break;
+      }
+    }
+    return context;
+  }
+
+  /**
+   * Gets a WebGL context.  Will create a WebGL2 context if possible.
+   *
+   * You can check if it's WebGL2 with
+   *
+   *    function isWebGL2(gl) {
+   *      return gl.getParameter(gl.VERSION).indexOf("WebGL 2.0 ") == 0;
+   *    }
+   *
+   * @param {HTMLCanvasElement} canvas a canvas element.
+   * @param {WebGLContextCreationAttirbutes} [opt_attribs] optional webgl context creation attributes
+   * @return {WebGLRenderingContext} The created context.
+   * @memberOf module:twgl
+   */
+  function getContext(canvas, opt_attribs) {
+    var gl = createContext(canvas, opt_attribs);
+    addVertexArrayObjectSupport(gl);
+    return gl;
+  }
+
+  /**
+   * Resize a canvas to match the size it's displayed.
+   * @param {HTMLCanvasElement} canvas The canvas to resize.
+   * @param {number} [multiplier] So you can pass in `window.devicePixelRatio` if you want to.
+   * @return {boolean} true if the canvas was resized.
+   * @memberOf module:twgl
+   */
+  function resizeCanvasToDisplaySize(canvas, multiplier) {
+    multiplier = multiplier || 1;
+    multiplier = Math.max(1, multiplier);
+    var width  = canvas.clientWidth  * multiplier | 0;
+    var height = canvas.clientHeight * multiplier | 0;
+    if (canvas.width !== width ||
+        canvas.height !== height) {
+      canvas.width = width;
+      canvas.height = height;
+      return true;
+    }
+    return false;
+  }
+
+  // Using quotes prevents Uglify from changing the names.
+  // No speed diff AFAICT.
+  var api = {
+    "getContext": getContext,
+    "getWebGLContext": getWebGLContext,
+    "isWebGL1": utils.isWebGL1,
+    "isWebGL2": utils.isWebGL2,
+    "resizeCanvasToDisplaySize": resizeCanvasToDisplaySize,
+    "setDefaults": setDefaults,
+  };
+
+  function notPrivate(name) {
+    return name[name.length - 1] !== '_';
+  }
+
+  function copyPublicProperties(src, dst) {
+    Object.keys(src).filter(notPrivate).forEach(function(key) {
+      dst[key] = src[key];
+    });
+    return dst;
+  }
+
+  var apis = {
+    attributes: attributes,
+    draw: draw,
+    framebuffers: framebuffers,
+    programs: programs,
+    textures: textures,
+    typedArrays: typedArrays,
+  };
+  Object.keys(apis).forEach(function(name) {
+    var srcApi = apis[name];
+    copyPublicProperties(srcApi, api);
+    api[name] = copyPublicProperties(srcApi, {});
+  });
+
+  return api;
 
 });
 
@@ -3319,8 +4749,8 @@ define('twgl/twgl',[], function () {
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-
-define('twgl/v3',[], function () {
+define('twgl/v3',[], function() {
+  
 
   /**
    *
@@ -3359,9 +4789,12 @@ define('twgl/v3',[], function () {
   /**
    * Sets the type this library creates for a Vec3
    * @param {constructor} ctor the constructor for the type. Either `Float32Array` or `Array`
+   * @return {constructor} previous constructor for Vec3
    */
   function setDefaultType(ctor) {
-      VecType = ctor;
+    var oldType = VecType;
+    VecType = ctor;
+    return oldType;
   }
 
   /**
@@ -3677,9 +5110,8 @@ define('twgl/v3',[], function () {
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-
-
-define('twgl/m4',['./v3'], function (v3) {
+define('twgl/m4',['./v3'], function(v3) {
+  
 
   /**
    * 4x4 Matrix math math functions.
@@ -3722,9 +5154,12 @@ define('twgl/m4',['./v3'], function (v3) {
   /**
    * Sets the type this library creates for a Mat4
    * @param {constructor} ctor the constructor for the type. Either `Float32Array` or `Array`
+   * @return {constructor} previous constructor for Mat4
    */
   function setDefaultType(ctor) {
-      VecType = ctor;
+    var oldType = MatType;
+    MatType = ctor;
+    return oldType;
   }
 
   /**
@@ -4087,7 +5522,7 @@ define('twgl/m4',['./v3'], function (v3) {
    * Returns the translation component of a 4-by-4 matrix as a vector with 3
    * entries.
    * @param {module:twgl/m4.Mat4} m The matrix.
-   * @return {Vec3} [dst] vector..
+   * @param {Vec3} [dst] vector..
    * @return {Vec3} The translation component of m.
    * @memberOf module:twgl/m4
    */
@@ -4100,7 +5535,7 @@ define('twgl/m4',['./v3'], function (v3) {
   }
 
   /**
-   * Returns the axis of a 4x4 matrix as a vector with 3 entries
+   * Returns an axis of a 4x4 matrix as a vector with 3 entries
    * @param {module:twgl/m4.Mat4} m The matrix.
    * @param {number} axis The axis 0 = x, 1 = y, 2 = z;
    * @return {Vec3} [dst] vector.
@@ -4113,6 +5548,25 @@ define('twgl/m4',['./v3'], function (v3) {
     dst[0] = m[off + 0];
     dst[1] = m[off + 1];
     dst[2] = m[off + 2];
+    return dst;
+  }
+
+  /**
+   * Sets an axis of a 4x4 matrix as a vector with 3 entries
+   * @param {Vec3} v the axis vector
+   * @param {number} axis The axis  0 = x, 1 = y, 2 = z;
+   * @param {module:twgl/m4.Mat4} [dst] The matrix to set. If none a new one is created
+   * @return {module:twgl/m4.Mat4} dst
+   * @memberOf module:twgl/m4
+   */
+  function setAxis(a, v, axis, dst) {
+    if (dst !== a) {
+      dst = copy(a, dst);
+    }
+    var off = axis * 4;
+    dst[off + 0] = v[0];
+    dst[off + 1] = v[1];
+    dst[off + 2] = v[2];
     return dst;
   }
 
@@ -4815,7 +6269,7 @@ define('twgl/m4',['./v3'], function (v3) {
       dst[15] = m[15];
     }
 
-    return m;
+    return dst;
   }
 
   /**
@@ -4924,6 +6378,7 @@ define('twgl/m4',['./v3'], function (v3) {
     "rotationZ": rotationZ,
     "scale": scale,
     "scaling": scaling,
+    "setAxis": setAxis,
     "setDefaultType": setDefaultType,
     "setTranslation": setTranslation,
     "transformDirection": transformDirection,
@@ -4967,8 +6422,6 @@ define('twgl/m4',['./v3'], function (v3) {
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-
-
 /**
  * Various functions to make simple primitives
  *
@@ -5002,14 +6455,22 @@ define('twgl/m4',['./v3'], function (v3) {
  * @module twgl/primitives
  */
 define('twgl/primitives',[
+    './attributes',
     './twgl',
+    './utils',
     './m4',
     './v3',
-  ], function (
+  ], function(
+    attributes,
     twgl,
+    utils,
     m4,
     v3
   ) {
+  
+
+  var getArray = attributes.getArray_;  // eslint-disable-line
+  var getNumComponents = attributes.getNumComponents_;  // eslint-disable-line
 
   /**
    * Add `push` to a typed array. It just keeps a 'cursor'
@@ -5064,7 +6525,7 @@ define('twgl/primitives',[
    * @param {number} numElements number of elements. The total size of the array will be `numComponents * numElements`.
    * @param {constructor} opt_type A constructor for the type. Default = `Float32Array`.
    * @return {ArrayBuffer} A typed array.
-   * @memberOf module:twgl
+   * @memberOf module:twgl/primitives
    */
   function createAugmentedTypedArray(numComponents, numElements, opt_type) {
     var Type = opt_type || Float32Array;
@@ -6682,6 +8143,7 @@ define('twgl/primitives',[
 
     var firstIndex = 0;
     var radiusSpan = radius - innerRadius;
+    var pointsPerStack = divisions + 1;
 
     // Build the disk one stack at a time.
     for (var stack = 0; stack <= stacks; ++stack) {
@@ -6701,8 +8163,8 @@ define('twgl/primitives',[
           // the vertices a and b connect to the center vertex.
           var a = firstIndex + (i + 1);
           var b = firstIndex + i;
-          var c = firstIndex + i - divisions;
-          var d = firstIndex + (i + 1) - divisions;
+          var c = firstIndex + i - pointsPerStack;
+          var d = firstIndex + (i + 1) - pointsPerStack;
 
           // Make a quad of the vertices a, b, c, d.
           indices.push(a, b, c);
@@ -6749,7 +8211,7 @@ define('twgl/primitives',[
   /**
    * Creates an augmentedTypedArray of random vertex colors.
    * If the vertices are indexed (have an indices array) then will
-   * just make random colors. Otherwise assumes they are triangless
+   * just make random colors. Otherwise assumes they are triangles
    * and makes one random color for every 3 vertices.
    * @param {Object.<string, augmentedTypedArray>} vertices Vertices as returned from one of the createXXXVertices functions.
    * @param {module:twgl/primitives.RandomVerticesOptions} [options] options.
@@ -6805,6 +8267,177 @@ define('twgl/primitives',[
     };
   }
 
+  var arraySpecPropertyNames = [
+    "numComponents",
+    "size",
+    "type",
+    "normalize",
+    "stride",
+    "offset",
+    "attrib",
+    "name",
+    "attribName",
+  ];
+
+  /**
+   * Copy elements from one array to another
+   *
+   * @param {Array|TypedArray} src source array
+   * @param {Array|TypedArray} dst dest array
+   * @param {number} dstNdx index in dest to copy src
+   * @param {number} [offset] offset to add to copied values
+   */
+  function copyElements(src, dst, dstNdx, offset) {
+    offset = offset || 0;
+    var length = src.length;
+    for (var ii = 0; ii < length; ++ii) {
+      dst[dstNdx + ii] = src[ii] + offset;
+    }
+  }
+
+  /**
+   * Creates an array of the same time
+   *
+   * @param {(number[]|ArrayBuffer|module:twgl.FullArraySpec)} srcArray array who's type to copy
+   * @param {number} length size of new array
+   * @return {(number[]|ArrayBuffer|module:twgl.FullArraySpec)} array with same type as srcArray
+   */
+  function createArrayOfSameType(srcArray, length) {
+    var arraySrc = getArray(srcArray);
+    var newArray = new arraySrc.constructor(length);
+    var newArraySpec = newArray;
+    // If it appears to have been augmented make new one augemented
+    if (arraySrc.numComponents && arraySrc.numElements) {
+      augmentTypedArray(newArray, arraySrc.numComponents);
+    }
+    // If it was a fullspec make new one a fullspec
+    if (srcArray.data) {
+      newArraySpec = {
+        data: newArray,
+      };
+      utils.copyNamedProperties(arraySpecPropertyNames, srcArray, newArraySpec);
+    }
+    return newArraySpec;
+  }
+
+  /**
+   * Concatinates sets of vertices
+   *
+   * Assumes the vertices match in composition. For example
+   * if one set of vertices has positions, normals, and indices
+   * all sets of vertices must have positions, normals, and indices
+   * and of the same type.
+   *
+   * Example:
+   *
+   *      var cubeVertices = twgl.primtiives.createCubeVertices(2);
+   *      var sphereVertices = twgl.primitives.createSphereVertices(1, 10, 10);
+   *      // move the sphere 2 units up
+   *      twgl.primitives.reorientVertices(
+   *          sphereVertices, twgl.m4.translation([0, 2, 0]));
+   *      // merge the sphere with the cube
+   *      var cubeSphereVertices = twgl.primitives.concatVertices(
+   *          [cubeVertices, sphereVertices]);
+   *      // turn them into WebGL buffers and attrib data
+   *      var bufferInfo = twgl.createBufferInfoFromArrays(gl, cubeSphereVertices);
+   *
+   * @param {module:twgl.Arrays[]} arrays Array of arrays of vertices
+   * @return {module:twgl.Arrays} The concatinated vertices.
+   * @memberOf module:twgl/primitives
+   */
+  function concatVertices(arrayOfArrays) {
+    var names = {};
+    var baseName;
+    // get names of all arrays.
+    // and numElements for each set of vertices
+    for (var ii = 0; ii < arrayOfArrays.length; ++ii) {
+      var arrays = arrayOfArrays[ii];
+      Object.keys(arrays).forEach(function(name) {  // eslint-disable-line
+        if (!names[name]) {
+          names[name] = [];
+        }
+        if (!baseName && name !== 'indices') {
+          baseName = name;
+        }
+        var arrayInfo = arrays[name];
+        var numComponents = getNumComponents(arrayInfo, name);
+        var array = getArray(arrayInfo);
+        var numElements = array.length / numComponents;
+        names[name].push(numElements);
+      });
+    }
+
+    // compute length of combined array
+    // and return one for reference
+    function getLengthOfCombinedArrays(name) {
+      var length = 0;
+      var arraySpec;
+      for (var ii = 0; ii < arrayOfArrays.length; ++ii) {
+        var arrays = arrayOfArrays[ii];
+        var arrayInfo = arrays[name];
+        var array = getArray(arrayInfo);
+        length += array.length;
+        if (!arraySpec || arrayInfo.data) {
+          arraySpec = arrayInfo;
+        }
+      }
+      return {
+        length: length,
+        spec: arraySpec,
+      };
+    }
+
+    function copyArraysToNewArray(name, base, newArray) {
+      var baseIndex = 0;
+      var offset = 0;
+      for (var ii = 0; ii < arrayOfArrays.length; ++ii) {
+        var arrays = arrayOfArrays[ii];
+        var arrayInfo = arrays[name];
+        var array = getArray(arrayInfo);
+        if (name === 'indices') {
+          copyElements(array, newArray, offset, baseIndex);
+          baseIndex += base[ii];
+        } else {
+          copyElements(array, newArray, offset);
+        }
+        offset += array.length;
+      }
+    }
+
+    var base = names[baseName];
+
+    var newArrays = {};
+    Object.keys(names).forEach(function(name) {
+      var info = getLengthOfCombinedArrays(name);
+      var newArraySpec = createArrayOfSameType(info.spec, info.length);
+      copyArraysToNewArray(name, base, getArray(newArraySpec));
+      newArrays[name] = newArraySpec;
+    });
+    return newArrays;
+  }
+
+  /**
+   * Creates a duplicate set of vertices
+   *
+   * This is useful for calling reorientVertices when you
+   * also want to keep the original available
+   *
+   * @param {module:twgl.Arrays} arrays of vertices
+   * @return {module:twgl.Arrays} The dupilicated vertices.
+   * @memberOf module:twgl/primitives
+   */
+  function duplicateVertices(arrays) {
+    var newArrays = {};
+    Object.keys(arrays).forEach(function(name) {
+      var arraySpec = arrays[name];
+      var srcArray = getArray(arraySpec);
+      var newArraySpec = createArrayOfSameType(arraySpec, srcArray.length);
+      copyElements(srcArray, getArray(newArraySpec), 0);
+      newArrays[name] = newArraySpec;
+    });
+    return newArrays;
+  }
+
   // Using quotes prevents Uglify from changing the names.
   // No speed diff AFAICT.
   return {
@@ -6846,6 +8479,8 @@ define('twgl/primitives',[
     "reorientNormals": reorientNormals,
     "reorientPositions": reorientPositions,
     "reorientVertices": reorientVertices,
+    "concatVertices": concatVertices,
+    "duplicateVertices": duplicateVertices,
   };
 
 });

@@ -93,6 +93,8 @@ var bower = JSON.parse(fs.readFileSync('bower.json', {encoding: "utf8"}));
 
 module.exports = function(grunt) {
 
+  require('load-grunt-tasks')(grunt);
+
   function setLicense() {
     var s = replaceParams(license, bower);
     grunt.config.set('uglify.min.options.banner', s);
@@ -104,6 +106,12 @@ module.exports = function(grunt) {
 
   var srcFiles = [
     'src/twgl.js',
+    'src/attributes.js',
+    'src/draw.js',
+    'src/framebuffers.js',
+    'src/programs.js',
+    'src/textures.js',
+    'src/typedarrays.js',
   ];
 
   var thirdPartyFiles = [
@@ -126,7 +134,9 @@ module.exports = function(grunt) {
         options: {
           destination: 'docs',
           configure: 'build/jsdoc.conf.json',
-          template: 'build/jsdoc-template/template',
+//          template: 'build/jsdoc-template/template',
+          template: './node_modules/minami',
+          outputSourceFiles: false,
         },
       },
     },
@@ -196,7 +206,7 @@ module.exports = function(grunt) {
           'src/*',
         ],
         options: {
-          config: 'build/conf/eslint.json',
+          configFile: 'build/conf/eslint.json',
           //rulesdir: ['build/rules'],
         },
       },
@@ -207,9 +217,19 @@ module.exports = function(grunt) {
           'examples/js',
         ],
         options: {
-          config: 'build/conf/eslint.json',
+          configFile: 'build/conf/eslint-docs.json',
           //rulesdir: ['build/rules'],
         },
+      },
+    },
+    copy: {
+      twgl: {
+        src: 'dist/twgl.js',
+        dest: 'npm/base/dist/twgl.js',
+      },
+      readme: {
+        src: 'README.md',
+        dest: 'npm/base/README.md',
       },
     },
     browserify: {
@@ -224,13 +244,6 @@ module.exports = function(grunt) {
       dist: [ 'dist' ],
     },
   });
-
-  grunt.loadNpmTasks('grunt-browserify');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-requirejs');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-eslint');
-  grunt.loadNpmTasks('grunt-jsdoc');
 
   grunt.registerTask('makeindex', function() {
     var marked  = require('marked');
@@ -258,15 +271,19 @@ module.exports = function(grunt) {
     return JSON.parse(fs.readFileSync(filename, {encoding: "utf8"})).version;
   }
 
-  grunt.registerTask('bumpversion', function() {
-    bower.version = semver.inc(bower.version, 'patch');
+  function bump(type) {
+    bower.version = semver.inc(bower.version, type);
     fs.writeFileSync("bower.json", JSON.stringify(bower, null, 2));
     var filename = "package.json";
     var p = JSON.parse(fs.readFileSync(filename, {encoding: "utf8"}));
     p.version = bower.version;
     fs.writeFileSync(filename, JSON.stringify(p, null, 2));
     setLicense();
-  });
+  }
+
+  grunt.registerTask('bumppatchimpl', function() { bump('patch'); });
+  grunt.registerTask('bumpminorimpl', function() { bump('minor'); });
+  grunt.registerTask('bumpmajorimpl', function() { bump('major'); });
 
   grunt.registerTask('versioncheck', function() {
     var fs = require('fs');
@@ -287,6 +304,16 @@ module.exports = function(grunt) {
     return good;
   });
 
+  grunt.registerTask('npmpackage', function() {
+    var p = JSON.parse(fs.readFileSync('package.json', {encoding: "utf8"}));
+    p.name = "twgl-base.js";
+    p.scripts = {};
+    p.devDependencies = {};
+    p.main = "dist/twgl.js";
+    p.files = [ 'dist/twgl.js' ];
+    fs.writeFileSync("npm/base/package.json", JSON.stringify(p, null, 2), {encoding: "utf8"});
+  });
+
   grunt.registerTask('docs', [
       'eslint:examples',
       'clean:docs',
@@ -299,11 +326,29 @@ module.exports = function(grunt) {
       'requirejs',
       /*'concat',*/
       'uglify',
+      'copy',
+      'npmpackage',
   ]);
-  grunt.registerTask('publish', [
+  grunt.registerTask('bumppatch', [
       'eslint:lib',
       'eslint:examples',
-      'bumpversion',
+      'bumppatchimpl',
+      'build',
+      'browserify',
+      'docs',
+  ]);
+  grunt.registerTask('bumpminor', [
+      'eslint:lib',
+      'eslint:examples',
+      'bumpminorimpl',
+      'build',
+      'browserify',
+      'docs',
+  ]);
+  grunt.registerTask('bumpmajor', [
+      'eslint:lib',
+      'eslint:examples',
+      'bumpmajorimpl',
       'build',
       'browserify',
       'docs',

@@ -1,6 +1,6 @@
 {
   "name": "twgl.js",
-  "version": "0.0.40",
+  "version": "1.7.2",
   "homepage": "http://twgljs.org",
   "authors": [
     "Gregg Tavares <github@greggman.com>"
@@ -30,6 +30,7 @@
     "resources",
     "build",
     "src",
+    "npm",
     "templates",
     "node_modules",
     "bower_components",
